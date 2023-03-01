@@ -19,11 +19,10 @@ const UsingFetch = () => {
     fetchData()
   }, [])
   
-  /*return (
+  return (
     <>
     
-    <body className = "h-screen bg-gradient-to-r from-rose-300 to-stone-300 ">
- 
+    <body className = "h-screen bg-gradient-to-r from-cyan-200 to-lime-200 "> 
    
     <table class="table-auto border-separate border-spacing-2 ml-6 border border-black ...">
   <thead class="mb-5">
@@ -52,15 +51,15 @@ const UsingFetch = () => {
     </body>
  
     </>
-  )*/
+  )
 
-  return (
+ /* return (
     <div>
       {users.map(user => (
         <li key = {user.id}>{user.email}</li>
       ))}
     </div>
-  )
+  ) */
 }
 
 export default UsingFetch
