@@ -22,8 +22,7 @@ const UsingFetch = () => {
   return (
     <>
     
-    <body className = "h-screen bg-gradient-to-r from-cyan-200 to-lime-200 "> 
-   
+    <body className = "h-screen bg-gradient-to-r from-rose-300 to-purple-300 ">   
     <table class="table-auto border-separate border-spacing-2 ml-6 border border-black ...">
   <thead class="mb-5">
     <tr >
