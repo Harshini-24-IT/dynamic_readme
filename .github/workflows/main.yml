@@ -3,6 +3,12 @@ name: Docker Image Sample
 on:
   workflow_dispatch:
     inputs:
+      image_name: 
+         type: choice
+         description: pick image to be pushed
+         options:
+         - image_1
+         - image_ah
       tag_name:
         description: What is the tag
         type: boolean
@@ -11,6 +17,24 @@ jobs:
    
    today_job:
          if: github.event.inputs.tag_name  == 'true'  
-         runs-on: [ new_run  ]
+         runs-on: [ new_run ]
          steps:
-           -  run: echo "Hello"
+            - run: echo "Hello"
+   new_job:
+      runs-on: [ new_run ]
+      needs: [ today_job ]
+      steps:
+      - name: Generate file with timestamp
+        run: |
+             $content = "Timestamp: $(Get-Date)"
+             Set-Content -Path timestamp.txt -Value $content
+             shell: pwsh
+ 
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: timestamp-report
+          path: timestamp.txt
+
+
+      
