@@ -1,0 +1,1185 @@
+[2023-03-02 06:51:19Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2023-03-02 06:51:19Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:51:19Z INFO HostContext] Well known directory 'Root': 'C:\Users\hkam\build_display\actions-runner'
+[2023-03-02 06:51:19Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\hkam\build_display\actions-runner\.credentials'
+[2023-03-02 06:51:19Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:51:19Z INFO HostContext] Well known directory 'Root': 'C:\Users\hkam\build_display\actions-runner'
+[2023-03-02 06:51:19Z INFO HostContext] Well known config file 'Runner': 'C:\Users\hkam\build_display\actions-runner\.runner'
+[2023-03-02 06:51:19Z INFO Worker] Version: 2.301.1
+[2023-03-02 06:51:19Z INFO Worker] Commit: f764f5dfa75a74600ef491599be8d4fea33ccdaf
+[2023-03-02 06:51:19Z INFO Worker] Culture: en-IN
+[2023-03-02 06:51:19Z INFO Worker] UI Culture: en-US
+[2023-03-02 06:51:19Z INFO Worker] Waiting to receive the job message from the channel.
+[2023-03-02 06:51:19Z INFO ProcessChannel] Receiving message of length 19189, with hash '45a6ae71ea74f22253212d720a64f055c6808f9a4f7eb36b6d576580fa25af1e'
+[2023-03-02 06:51:19Z INFO Worker] Message received.
+[2023-03-02 06:51:20Z INFO Worker] Job message:
+ {
+  "fileTable": [
+    ".github/workflows/main.yml"
+  ],
+  "mask": [
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    },
+    {
+      "type": "regex",
+      "value": "***"
+    }
+  ],
+  "steps": [
+    {
+      "type": "action",
+      "reference": {
+        "type": "script"
+      },
+      "contextName": "__run",
+      "inputs": {
+        "type": 2,
+        "map": [
+          {
+            "key": "script",
+            "value": {
+              "type": 0,
+              "file": 1,
+              "line": 16,
+              "col": 20,
+              "lit": "echo \"Hello\""
+            }
+          }
+        ]
+      },
+      "condition": "success()",
+      "id": "df645e1b-cdcb-586f-9579-5632a599214c",
+      "name": "__run"
+    }
+  ],
+  "variables": {
+    "system.isScheduled": {
+      "value": "False"
+    },
+    "system.servertype": {
+      "value": "Hosted"
+    },
+    "system.culture": {
+      "value": "en-US"
+    },
+    "system.pipelineStartTime": {
+      "value": "2023-03-02 06:51:16+00:00"
+    },
+    "system.runner.lowdiskspacethreshold": {
+      "value": "100"
+    },
+    "DistributedTask.NewActionMetadata": {
+      "value": "true"
+    },
+    "DistributedTask.EnableCompositeActions": {
+      "value": "true"
+    },
+    "DistributedTask.EnhancedAnnotations": {
+      "value": "true"
+    },
+    "DistributedTask.UploadStepSummary": {
+      "value": "true"
+    },
+    "DistributedTask.AddWarningToNode12Action": {
+      "value": "true"
+    },
+    "DistributedTask.AllowRunnerContainerHooks": {
+      "value": "true"
+    },
+    "DistributedTask.DeprecateStepOutputCommands": {
+      "value": "true"
+    },
+    "system.teamProjectId": {
+      "value": "00000000-0000-0000-0000-000000000000"
+    },
+    "build.buildId": {
+      "value": "7"
+    },
+    "build.containerId": {
+      "value": "13984647"
+    },
+    "system.workflowFilePath": {
+      "value": ".github/workflows/main.yml"
+    },
+    "system.phaseDisplayName": {
+      "value": "today_job"
+    },
+    "system.phaseId": {
+      "value": "6b194d56-22ce-515a-0224-80249394837b"
+    },
+    "system.phaseName": {
+      "value": "today_job"
+    },
+    "system.phaseAttempt": {
+      "value": "1"
+    },
+    "system.jobIdentifier": {
+      "value": "today_job.__default"
+    },
+    "system.jobAttempt": {
+      "value": "1"
+    },
+    "System.JobPositionInPhase": {
+      "value": "1"
+    },
+    "System.TotalJobsInPhase": {
+      "value": "1"
+    },
+    "system.github.job": {
+      "value": "today_job"
+    },
+    "system.jobDisplayName": {
+      "value": "today_job"
+    },
+    "system.jobId": {
+      "value": "fc4c0bc6-15b4-5905-22ab-6b6b065abfc8"
+    },
+    "system.jobName": {
+      "value": "__default"
+    },
+    "system.github.token.permissions": {
+      "value": "{\"Contents\":\"read\",\"Metadata\":\"read\",\"Packages\":\"read\"}"
+    },
+    "system.github.token": {
+      "value": "***",
+      "isSecret": true
+    },
+    "system.runnerGroupName": {
+      "value": "Default"
+    },
+    "system.github.results_endpoint": {
+      "value": "https://actions-results-receiver-production.githubapp.com"
+    }
+  },
+  "messageType": "PipelineAgentJobRequest",
+  "plan": {
+    "scopeIdentifier": "00000000-0000-0000-0000-000000000000",
+    "planType": "Actions",
+    "version": 27,
+    "planId": "a4f6073f-1f08-49a9-bb1c-df5e5d6f960a",
+    "planGroup": "Actions:00000000-0000-0000-0000-000000000000:1",
+    "artifactUri": "vstfs:///Build/Build/7",
+    "artifactLocation": null,
+    "definition": {
+      "_links": {},
+      "id": 3,
+      "name": "dynamic_readme"
+    },
+    "owner": {
+      "_links": {},
+      "id": 3,
+      "name": "Harshini-24-IT"
+    }
+  },
+  "timeline": {
+    "id": "a4f6073f-1f08-49a9-bb1c-df5e5d6f960a",
+    "changeId": 0,
+    "location": null
+  },
+  "jobId": "fc4c0bc6-15b4-5905-22ab-6b6b065abfc8",
+  "jobDisplayName": "today_job",
+  "jobName": "__default",
+  "requestId": 7,
+  "lockedUntil": "0001-01-01T00:00:00",
+  "resources": {
+    "endpoints": [
+      {
+        "data": {
+          "ServerId": "b014600d-356f-463e-8c69-3b124a3f34f1",
+          "ServerName": "k8FlMP1p02qkIxGNFzRRrSGh1h5DRc0fiH6ki7XOCnQH3olN7u",
+          "CacheServerUrl": "https://artifactcache.actions.githubusercontent.com/k8FlMP1p02qkIxGNFzRRrSGh1h5DRc0fiH6ki7XOCnQH3olN7u/",
+          "FeedStreamUrl": "https://pipelines.actions.githubusercontent.com/k8FlMP1p02qkIxGNFzRRrSGh1h5DRc0fiH6ki7XOCnQH3olN7u/00000000-0000-0000-0000-000000000000/_apis/distributedtask/hubs/Actions/plans/a4f6073f-1f08-49a9-bb1c-df5e5d6f960a/timelines/a4f6073f-1f08-49a9-bb1c-df5e5d6f960a/records/fc4c0bc6-15b4-5905-22ab-6b6b065abfc8/feedstream?api-version=6.0-preview"
+        },
+        "name": "SystemVssConnection",
+        "url": "https://pipelines.actions.githubusercontent.com/k8FlMP1p02qkIxGNFzRRrSGh1h5DRc0fiH6ki7XOCnQH3olN7u/",
+        "authorization": {
+          "parameters": {
+            "AccessToken": ***
+          },
+          "scheme": "OAuth"
+        },
+        "isShared": false,
+        "isReady": true
+      }
+    ]
+  },
+  "contextData": {
+    "github": {
+      "t": 2,
+      "d": [
+        {
+          "k": "ref",
+          "v": "refs/heads/main"
+        },
+        {
+          "k": "sha",
+          "v": "903c699ba9f0db34eec8e4543651e74097200681"
+        },
+        {
+          "k": "repository",
+          "v": "Harshini-24-IT/dynamic_readme"
+        },
+        {
+          "k": "repository_owner",
+          "v": "Harshini-24-IT"
+        },
+        {
+          "k": "repository_owner_id",
+          "v": "65531498"
+        },
+        {
+          "k": "repositoryUrl",
+          "v": "git://github.com/Harshini-24-IT/dynamic_readme.git"
+        },
+        {
+          "k": "run_id",
+          "v": "4311361695"
+        },
+        {
+          "k": "run_number",
+          "v": "5"
+        },
+        {
+          "k": "retention_days",
+          "v": "90"
+        },
+        {
+          "k": "run_attempt",
+          "v": "1"
+        },
+        {
+          "k": "artifact_cache_size_limit",
+          "v": "10"
+        },
+        {
+          "k": "repository_visibility",
+          "v": "public"
+        },
+        {
+          "k": "repository_id",
+          "v": "608018730"
+        },
+        {
+          "k": "actor_id",
+          "v": "65531498"
+        },
+        {
+          "k": "actor",
+          "v": "Harshini-24-IT"
+        },
+        {
+          "k": "triggering_actor",
+          "v": "Harshini-24-IT"
+        },
+        {
+          "k": "workflow",
+          "v": "Docker Image Sample"
+        },
+        {
+          "k": "head_ref",
+          "v": ""
+        },
+        {
+          "k": "base_ref",
+          "v": ""
+        },
+        {
+          "k": "event_name",
+          "v": "workflow_dispatch"
+        },
+        {
+          "k": "event",
+          "v": {
+            "t": 2,
+            "d": [
+              {
+                "k": "inputs",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "tag_name",
+                      "v": "true"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "ref",
+                "v": "refs/heads/main"
+              },
+              {
+                "k": "repository",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "allow_forking",
+                      "v": true
+                    },
+                    {
+                      "k": "archive_url",
+                      "v": "https://api.github.com/repos/Harshini-24-IT/dynamic_readme/{archive_format}{/ref}"
+                    },
+                    {
+                      "k": "archived",
+                      "v": false
+                    },
+                    {
+                      "k": "assignees_url",
+                      "v": "https://api.github.com/repos/Harshini-24-IT/dynamic_readme/assignees{/user}"
+                    },
+                    {
+                      "k": "blobs_url",
+                      "v": "https://api.github.com/repos/Harshini-24-IT/dynamic_readme/git/blobs{/sha}"
+                    },
+                    {
+                      "k": "branches_url",
+                      "v": "https://api.github.com/repos/Harshini-24-IT/dynamic_readme/branches{/branch}"
+                    },
+                    {
+                      "k": "clone_url",
+                      "v": "https://github.com/Harshini-24-IT/dynamic_readme.git"
+                    },
+                    {
+                      "k": "collaborators_url",
+                      "v": "https://api.github.com/repos/Harshini-24-IT/dynamic_readme/collaborators{/collaborator}"
+                    },
+                    {
+                      "k": "comments_url",
+                      "v": "https://api.github.com/repos/Harshini-24-IT/dynamic_readme/comments{/number}"
+                    },
+                    {
+                      "k": "commits_url",
+                      "v": "https://api.github.com/repos/Harshini-24-IT/dynamic_readme/commits{/sha}"
+                    },
+                    {
+                      "k": "compare_url",
+                      "v": "https://api.github.com/repos/Harshini-24-IT/dynamic_readme/compare/{base}...{head}"
+                    },
+                    {
+                      "k": "contents_url",
+                      "v": "https://api.github.com/repos/Harshini-24-IT/dynamic_readme/contents/{+path}"
+                    },
+                    {
+                      "k": "contributors_url",
+                      "v": "https://api.github.com/repos/Harshini-24-IT/dynamic_readme/contributors"
+                    },
+                    {
+                      "k": "created_at",
+                      "v": "2023-03-01T06:28:11Z"
+                    },
+                    {
+                      "k": "default_branch",
+                      "v": "main"
+                    },
+                    {
+                      "k": "deployments_url",
+                      "v": "https://api.github.com/repos/Harshini-24-IT/dynamic_readme/deployments"
+                    },
+                    {
+                      "k": "description",
+                      "v": null
+                    },
+                    {
+                      "k": "disabled",
+                      "v": false
+                    },
+                    {
+                      "k": "downloads_url",
+                      "v": "https://api.github.com/repos/Harshini-24-IT/dynamic_readme/downloads"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/repos/Harshini-24-IT/dynamic_readme/events"
+                    },
+                    {
+                      "k": "fork",
+                      "v": false
+                    },
+                    {
+                      "k": "forks",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "forks_url",
+                      "v": "https://api.github.com/repos/Harshini-24-IT/dynamic_readme/forks"
+                    },
+                    {
+                      "k": "full_name",
+                      "v": "Harshini-24-IT/dynamic_readme"
+                    },
+                    {
+                      "k": "git_commits_url",
+                      "v": "https://api.github.com/repos/Harshini-24-IT/dynamic_readme/git/commits{/sha}"
+                    },
+                    {
+                      "k": "git_refs_url",
+                      "v": "https://api.github.com/repos/Harshini-24-IT/dynamic_readme/git/refs{/sha}"
+                    },
+                    {
+                      "k": "git_tags_url",
+                      "v": "https://api.github.com/repos/Harshini-24-IT/dynamic_readme/git/tags{/sha}"
+                    },
+                    {
+                      "k": "git_url",
+                      "v": "git://github.com/Harshini-24-IT/dynamic_readme.git"
+                    },
+                    {
+                      "k": "has_discussions",
+                      "v": false
+                    },
+                    {
+                      "k": "has_downloads",
+                      "v": true
+                    },
+                    {
+                      "k": "has_issues",
+                      "v": true
+                    },
+                    {
+                      "k": "has_pages",
+                      "v": false
+                    },
+                    {
+                      "k": "has_projects",
+                      "v": true
+                    },
+                    {
+                      "k": "has_wiki",
+                      "v": true
+                    },
+                    {
+                      "k": "homepage",
+                      "v": "https://dynamic-readme-liard.vercel.app"
+                    },
+                    {
+                      "k": "hooks_url",
+                      "v": "https://api.github.com/repos/Harshini-24-IT/dynamic_readme/hooks"
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/Harshini-24-IT/dynamic_readme"
+                    },
+                    {
+                      "k": "id",
+                      "v": 608018730.0
+                    },
+                    {
+                      "k": "is_template",
+                      "v": false
+                    },
+                    {
+                      "k": "issue_comment_url",
+                      "v": "https://api.github.com/repos/Harshini-24-IT/dynamic_readme/issues/comments{/number}"
+                    },
+                    {
+                      "k": "issue_events_url",
+                      "v": "https://api.github.com/repos/Harshini-24-IT/dynamic_readme/issues/events{/number}"
+                    },
+                    {
+                      "k": "issues_url",
+                      "v": "https://api.github.com/repos/Harshini-24-IT/dynamic_readme/issues{/number}"
+                    },
+                    {
+                      "k": "keys_url",
+                      "v": "https://api.github.com/repos/Harshini-24-IT/dynamic_readme/keys{/key_id}"
+                    },
+                    {
+                      "k": "labels_url",
+                      "v": "https://api.github.com/repos/Harshini-24-IT/dynamic_readme/labels{/name}"
+                    },
+                    {
+                      "k": "language",
+                      "v": "JavaScript"
+                    },
+                    {
+                      "k": "languages_url",
+                      "v": "https://api.github.com/repos/Harshini-24-IT/dynamic_readme/languages"
+                    },
+                    {
+                      "k": "license",
+                      "v": null
+                    },
+                    {
+                      "k": "merges_url",
+                      "v": "https://api.github.com/repos/Harshini-24-IT/dynamic_readme/merges"
+                    },
+                    {
+                      "k": "milestones_url",
+                      "v": "https://api.github.com/repos/Harshini-24-IT/dynamic_readme/milestones{/number}"
+                    },
+                    {
+                      "k": "mirror_url",
+                      "v": null
+                    },
+                    {
+                      "k": "name",
+                      "v": "dynamic_readme"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "R_kgDOJD2hKg"
+                    },
+                    {
+                      "k": "notifications_url",
+                      "v": "https://api.github.com/repos/Harshini-24-IT/dynamic_readme/notifications{?since,all,participating}"
+                    },
+                    {
+                      "k": "open_issues",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "open_issues_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "owner",
+                      "v": {
+                        "t": 2,
+                        "d": [
+                          {
+                            "k": "avatar_url",
+                            "v": "https://avatars.githubusercontent.com/u/65531498?v=4"
+                          },
+                          {
+                            "k": "events_url",
+                            "v": "https://api.github.com/users/Harshini-24-IT/events{/privacy}"
+                          },
+                          {
+                            "k": "followers_url",
+                            "v": "https://api.github.com/users/Harshini-24-IT/followers"
+                          },
+                          {
+                            "k": "following_url",
+                            "v": "https://api.github.com/users/Harshini-24-IT/following{/other_user}"
+                          },
+                          {
+                            "k": "gists_url",
+                            "v": "https://api.github.com/users/Harshini-24-IT/gists{/gist_id}"
+                          },
+                          {
+                            "k": "gravatar_id",
+                            "v": ""
+                          },
+                          {
+                            "k": "html_url",
+                            "v": "https://github.com/Harshini-24-IT"
+                          },
+                          {
+                            "k": "id",
+                            "v": 65531498.0
+                          },
+                          {
+                            "k": "login",
+                            "v": "Harshini-24-IT"
+                          },
+                          {
+                            "k": "node_id",
+                            "v": "MDQ6VXNlcjY1NTMxNDk4"
+                          },
+                          {
+                            "k": "organizations_url",
+                            "v": "https://api.github.com/users/Harshini-24-IT/orgs"
+                          },
+                          {
+                            "k": "received_events_url",
+                            "v": "https://api.github.com/users/Harshini-24-IT/received_events"
+                          },
+                          {
+                            "k": "repos_url",
+                            "v": "https://api.github.com/users/Harshini-24-IT/repos"
+                          },
+                          {
+                            "k": "site_admin",
+                            "v": false
+                          },
+                          {
+                            "k": "starred_url",
+                            "v": "https://api.github.com/users/Harshini-24-IT/starred{/owner}{/repo}"
+                          },
+                          {
+                            "k": "subscriptions_url",
+                            "v": "https://api.github.com/users/Harshini-24-IT/subscriptions"
+                          },
+                          {
+                            "k": "type",
+                            "v": "User"
+                          },
+                          {
+                            "k": "url",
+                            "v": "https://api.github.com/users/Harshini-24-IT"
+                          }
+                        ]
+                      }
+                    },
+                    {
+                      "k": "private",
+                      "v": false
+                    },
+                    {
+                      "k": "pulls_url",
+                      "v": "https://api.github.com/repos/Harshini-24-IT/dynamic_readme/pulls{/number}"
+                    },
+                    {
+                      "k": "pushed_at",
+                      "v": "2023-03-02T06:50:48Z"
+                    },
+                    {
+                      "k": "releases_url",
+                      "v": "https://api.github.com/repos/Harshini-24-IT/dynamic_readme/releases{/id}"
+                    },
+                    {
+                      "k": "size",
+                      "v": 176.0
+                    },
+                    {
+                      "k": "ssh_url",
+                      "v": "git@github.com:Harshini-24-IT/dynamic_readme.git"
+                    },
+                    {
+                      "k": "stargazers_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "stargazers_url",
+                      "v": "https://api.github.com/repos/Harshini-24-IT/dynamic_readme/stargazers"
+                    },
+                    {
+                      "k": "statuses_url",
+                      "v": "https://api.github.com/repos/Harshini-24-IT/dynamic_readme/statuses/{sha}"
+                    },
+                    {
+                      "k": "subscribers_url",
+                      "v": "https://api.github.com/repos/Harshini-24-IT/dynamic_readme/subscribers"
+                    },
+                    {
+                      "k": "subscription_url",
+                      "v": "https://api.github.com/repos/Harshini-24-IT/dynamic_readme/subscription"
+                    },
+                    {
+                      "k": "svn_url",
+                      "v": "https://github.com/Harshini-24-IT/dynamic_readme"
+                    },
+                    {
+                      "k": "tags_url",
+                      "v": "https://api.github.com/repos/Harshini-24-IT/dynamic_readme/tags"
+                    },
+                    {
+                      "k": "teams_url",
+                      "v": "https://api.github.com/repos/Harshini-24-IT/dynamic_readme/teams"
+                    },
+                    {
+                      "k": "topics",
+                      "v": {
+                        "t": 1
+                      }
+                    },
+                    {
+                      "k": "trees_url",
+                      "v": "https://api.github.com/repos/Harshini-24-IT/dynamic_readme/git/trees{/sha}"
+                    },
+                    {
+                      "k": "updated_at",
+                      "v": "2023-03-02T06:36:24Z"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://api.github.com/repos/Harshini-24-IT/dynamic_readme"
+                    },
+                    {
+                      "k": "visibility",
+                      "v": "public"
+                    },
+                    {
+                      "k": "watchers",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "watchers_count",
+                      "v": 0.0
+                    },
+                    {
+                      "k": "web_commit_signoff_required",
+                      "v": false
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "sender",
+                "v": {
+                  "t": 2,
+                  "d": [
+                    {
+                      "k": "avatar_url",
+                      "v": "https://avatars.githubusercontent.com/u/65531498?v=4"
+                    },
+                    {
+                      "k": "events_url",
+                      "v": "https://api.github.com/users/Harshini-24-IT/events{/privacy}"
+                    },
+                    {
+                      "k": "followers_url",
+                      "v": "https://api.github.com/users/Harshini-24-IT/followers"
+                    },
+                    {
+                      "k": "following_url",
+                      "v": "https://api.github.com/users/Harshini-24-IT/following{/other_user}"
+                    },
+                    {
+                      "k": "gists_url",
+                      "v": "https://api.github.com/users/Harshini-24-IT/gists{/gist_id}"
+                    },
+                    {
+                      "k": "gravatar_id",
+                      "v": ""
+                    },
+                    {
+                      "k": "html_url",
+                      "v": "https://github.com/Harshini-24-IT"
+                    },
+                    {
+                      "k": "id",
+                      "v": 65531498.0
+                    },
+                    {
+                      "k": "login",
+                      "v": "Harshini-24-IT"
+                    },
+                    {
+                      "k": "node_id",
+                      "v": "MDQ6VXNlcjY1NTMxNDk4"
+                    },
+                    {
+                      "k": "organizations_url",
+                      "v": "https://api.github.com/users/Harshini-24-IT/orgs"
+                    },
+                    {
+                      "k": "received_events_url",
+                      "v": "https://api.github.com/users/Harshini-24-IT/received_events"
+                    },
+                    {
+                      "k": "repos_url",
+                      "v": "https://api.github.com/users/Harshini-24-IT/repos"
+                    },
+                    {
+                      "k": "site_admin",
+                      "v": false
+                    },
+                    {
+                      "k": "starred_url",
+                      "v": "https://api.github.com/users/Harshini-24-IT/starred{/owner}{/repo}"
+                    },
+                    {
+                      "k": "subscriptions_url",
+                      "v": "https://api.github.com/users/Harshini-24-IT/subscriptions"
+                    },
+                    {
+                      "k": "type",
+                      "v": "User"
+                    },
+                    {
+                      "k": "url",
+                      "v": "https://api.github.com/users/Harshini-24-IT"
+                    }
+                  ]
+                }
+              },
+              {
+                "k": "workflow",
+                "v": ".github/workflows/main.yml"
+              }
+            ]
+          }
+        },
+        {
+          "k": "server_url",
+          "v": "https://github.com"
+        },
+        {
+          "k": "api_url",
+          "v": "https://api.github.com"
+        },
+        {
+          "k": "graphql_url",
+          "v": "https://api.github.com/graphql"
+        },
+        {
+          "k": "ref_name",
+          "v": "main"
+        },
+        {
+          "k": "ref_protected",
+          "v": false
+        },
+        {
+          "k": "ref_type",
+          "v": "branch"
+        },
+        {
+          "k": "secret_source",
+          "v": "Actions"
+        },
+        {
+          "k": "workflow_ref",
+          "v": "Harshini-24-IT/dynamic_readme/.github/workflows/main.yml@refs/heads/main"
+        },
+        {
+          "k": "workflow_sha",
+          "v": "903c699ba9f0db34eec8e4543651e74097200681"
+        }
+      ]
+    },
+    "run-feature-flags": {
+      "t": 2,
+      "d": [
+        {
+          "k": "actions_use_results_service",
+          "v": true
+        }
+      ]
+    },
+    "partialrerun": false,
+    "needs": {
+      "t": 2
+    },
+    "vars": null,
+    "inputs": {
+      "t": 2,
+      "d": [
+        {
+          "k": "tag_name",
+          "v": true
+        }
+      ]
+    },
+    "matrix": null,
+    "strategy": {
+      "t": 2,
+      "d": [
+        {
+          "k": "fail-fast",
+          "v": true
+        },
+        {
+          "k": "job-index",
+          "v": 0.0
+        },
+        {
+          "k": "job-total",
+          "v": 1.0
+        },
+        {
+          "k": "max-parallel",
+          "v": 1.0
+        }
+      ]
+    }
+  }
+}
+[2023-03-02 06:51:20Z INFO JobRunner] Job ID fc4c0bc6-15b4-5905-22ab-6b6b065abfc8
+[2023-03-02 06:51:20Z INFO JobRunner] Creating job server with URL: https://pipelines.actions.githubusercontent.com/k8FlMP1p02qkIxGNFzRRrSGh1h5DRc0fiH6ki7XOCnQH3olN7u/
+[2023-03-02 06:51:20Z INFO ConfigurationStore] currentAssemblyLocation: C:\Users\hkam\build_display\actions-runner\bin\Runner.Worker.dll
+[2023-03-02 06:51:20Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:51:20Z INFO ConfigurationStore] binPath: C:\Users\hkam\build_display\actions-runner\bin
+[2023-03-02 06:51:20Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:51:20Z INFO HostContext] Well known directory 'Root': 'C:\Users\hkam\build_display\actions-runner'
+[2023-03-02 06:51:20Z INFO ConfigurationStore] RootFolder: C:\Users\hkam\build_display\actions-runner
+[2023-03-02 06:51:20Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:51:20Z INFO HostContext] Well known directory 'Root': 'C:\Users\hkam\build_display\actions-runner'
+[2023-03-02 06:51:20Z INFO HostContext] Well known config file 'Runner': 'C:\Users\hkam\build_display\actions-runner\.runner'
+[2023-03-02 06:51:20Z INFO ConfigurationStore] ConfigFilePath: C:\Users\hkam\build_display\actions-runner\.runner
+[2023-03-02 06:51:20Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:51:20Z INFO HostContext] Well known directory 'Root': 'C:\Users\hkam\build_display\actions-runner'
+[2023-03-02 06:51:20Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\hkam\build_display\actions-runner\.credentials'
+[2023-03-02 06:51:20Z INFO ConfigurationStore] CredFilePath: C:\Users\hkam\build_display\actions-runner\.credentials
+[2023-03-02 06:51:20Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:51:20Z INFO HostContext] Well known directory 'Root': 'C:\Users\hkam\build_display\actions-runner'
+[2023-03-02 06:51:20Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\Users\hkam\build_display\actions-runner\.credentials_migrated'
+[2023-03-02 06:51:20Z INFO ConfigurationStore] MigratedCredFilePath: C:\Users\hkam\build_display\actions-runner\.credentials_migrated
+[2023-03-02 06:51:20Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:51:20Z INFO HostContext] Well known directory 'Root': 'C:\Users\hkam\build_display\actions-runner'
+[2023-03-02 06:51:20Z INFO HostContext] Well known config file 'Service': 'C:\Users\hkam\build_display\actions-runner\.service'
+[2023-03-02 06:51:20Z INFO ConfigurationStore] ServiceConfigFilePath: C:\Users\hkam\build_display\actions-runner\.service
+[2023-03-02 06:51:20Z INFO ConfigurationStore] Read setting file: 305 chars
+[2023-03-02 06:51:20Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-03-02 06:51:20Z INFO Worker] Listening for cancel message from the channel.
+[2023-03-02 06:51:20Z INFO Worker] Waiting for the job to complete or for a cancel message from the channel.
+[2023-03-02 06:51:21Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-03-02 06:51:21Z INFO JobServer] Creating websocket client ...wss://pipelines.actions.githubusercontent.com/k8FlMP1p02qkIxGNFzRRrSGh1h5DRc0fiH6ki7XOCnQH3olN7u/00000000-0000-0000-0000-000000000000/_apis/distributedtask/hubs/Actions/plans/a4f6073f-1f08-49a9-bb1c-df5e5d6f960a/timelines/a4f6073f-1f08-49a9-bb1c-df5e5d6f960a/records/fc4c0bc6-15b4-5905-22ab-6b6b065abfc8/feedstream?api-version=6.0-preview
+[2023-03-02 06:51:21Z INFO JobServer] Attempting to start websocket client with delay 00:00:00.
+[2023-03-02 06:51:21Z INFO JobServerQueue] Initializing results client
+[2023-03-02 06:51:21Z INFO JobServerQueue] Start process web console line queue.
+[2023-03-02 06:51:21Z INFO JobServerQueue] Start process file upload queue.
+[2023-03-02 06:51:21Z INFO JobServerQueue] Start results file upload queue.
+[2023-03-02 06:51:21Z INFO JobServerQueue] Starting results-based upload queue...
+[2023-03-02 06:51:21Z INFO JobServerQueue] Start process timeline update queue.
+[2023-03-02 06:51:21Z INFO ExecutionContext] Initialize GitHub context
+[2023-03-02 06:51:21Z INFO ExecutionContext] Initialize Env context
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Root': 'C:\Users\hkam\build_display\actions-runner'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Diag': 'C:\Users\hkam\build_display\actions-runner\_diag'
+[2023-03-02 06:51:21Z INFO JobRunner] Starting the job execution context.
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Root': 'C:\Users\hkam\build_display\actions-runner'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Work': 'C:\Users\hkam\build_display\actions-runner\_work'
+[2023-03-02 06:51:21Z INFO JobRunner] Validating directory permissions for: 'C:\Users\hkam\build_display\actions-runner\_work'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Root': 'C:\Users\hkam\build_display\actions-runner'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Work': 'C:\Users\hkam\build_display\actions-runner\_work'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Tools': 'C:\Users\hkam\build_display\actions-runner\_work\_tool'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Root': 'C:\Users\hkam\build_display\actions-runner'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Work': 'C:\Users\hkam\build_display\actions-runner\_work'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Temp': 'C:\Users\hkam\build_display\actions-runner\_work\_temp'
+[2023-03-02 06:51:21Z INFO JobRunner] Getting job extension.
+[2023-03-02 06:51:21Z INFO JobRunner] Initialize job. Getting all job steps.
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Root': 'C:\Users\hkam\build_display\actions-runner'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Diag': 'C:\Users\hkam\build_display\actions-runner\_diag'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Root': 'C:\Users\hkam\build_display\actions-runner'
+[2023-03-02 06:51:21Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\hkam\build_display\actions-runner\.credentials'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Root': 'C:\Users\hkam\build_display\actions-runner'
+[2023-03-02 06:51:21Z INFO HostContext] Well known config file 'SetupInfo': 'C:\Users\hkam\build_display\actions-runner\.setup_info'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Root': 'C:\Users\hkam\build_display\actions-runner'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Work': 'C:\Users\hkam\build_display\actions-runner\_work'
+[2023-03-02 06:51:21Z INFO PipelineDirectoryManager] Loading tracking config if exists: C:\Users\hkam\build_display\actions-runner\_work\_PipelineMapping\Harshini-24-IT/dynamic_readme\PipelineFolder.json
+[2023-03-02 06:51:21Z INFO PipelineDirectoryManager] Updating job run properties.
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Root': 'C:\Users\hkam\build_display\actions-runner'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Work': 'C:\Users\hkam\build_display\actions-runner\_work'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Root': 'C:\Users\hkam\build_display\actions-runner'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Work': 'C:\Users\hkam\build_display\actions-runner\_work'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Root': 'C:\Users\hkam\build_display\actions-runner'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Work': 'C:\Users\hkam\build_display\actions-runner\_work'
+[2023-03-02 06:51:21Z INFO JobExtension] Downloading actions
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Root': 'C:\Users\hkam\build_display\actions-runner'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Work': 'C:\Users\hkam\build_display\actions-runner\_work'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Actions': 'C:\Users\hkam\build_display\actions-runner\_work\_actions'
+[2023-03-02 06:51:21Z INFO JobExtension] Adding .
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Root': 'C:\Users\hkam\build_display\actions-runner'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Diag': 'C:\Users\hkam\build_display\actions-runner\_diag'
+[2023-03-02 06:51:21Z INFO JobExtension] Total accessible running process: 270.
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Root': 'C:\Users\hkam\build_display\actions-runner'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Work': 'C:\Users\hkam\build_display\actions-runner\_work'
+[2023-03-02 06:51:21Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "setup_job",
+  "type": "runner",
+  "stage": "Pre",
+  "stepId": "0fd59cc5-2b89-4112-b1c0-7b3c62da496a",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 1,
+  "startTime": "2023-03-02T06:51:21.389152Z",
+  "finishTime": "2023-03-02T06:51:21.4830381Z"
+}.
+[2023-03-02 06:51:21Z INFO JobRunner] Total job steps: 1.
+[2023-03-02 06:51:21Z INFO JobRunner] Run all job steps.
+[2023-03-02 06:51:21Z INFO StepsRunner] Processing step: DisplayName='Run echo "Hello"'
+[2023-03-02 06:51:21Z INFO StepsRunner] Evaluating: success()
+[2023-03-02 06:51:21Z INFO StepsRunner] Result: true
+[2023-03-02 06:51:21Z INFO StepsRunner] Starting the step.
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Root': 'C:\Users\hkam\build_display\actions-runner'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Work': 'C:\Users\hkam\build_display\actions-runner\_work'
+[2023-03-02 06:51:21Z INFO StepsRunner] Which: 'chcp'
+[2023-03-02 06:51:21Z INFO StepsRunner] Location: 'C:\windows\system32\chcp.COM'
+[2023-03-02 06:51:21Z INFO ProcessInvokerWrapper] Starting process:
+[2023-03-02 06:51:21Z INFO ProcessInvokerWrapper]   File name: 'C:\windows\system32\chcp.COM'
+[2023-03-02 06:51:21Z INFO ProcessInvokerWrapper]   Arguments: '65001'
+[2023-03-02 06:51:21Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\hkam\build_display\actions-runner\_work'
+[2023-03-02 06:51:21Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-03-02 06:51:21Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-03-02 06:51:21Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-03-02 06:51:21Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-03-02 06:51:21Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2023-03-02 06:51:21Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-03-02 06:51:21Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-03-02 06:51:21Z INFO ProcessInvokerWrapper] Process started with process id 12808, waiting for process exit.
+[2023-03-02 06:51:21Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-02 06:51:21Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-02 06:51:21Z INFO ProcessInvokerWrapper] Finished process 12808 with exit code 0, and elapsed time 00:00:00.0375054.
+[2023-03-02 06:51:21Z INFO StepsRunner] Successfully returned to code page 65001 (UTF8)
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Root': 'C:\Users\hkam\build_display\actions-runner'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Work': 'C:\Users\hkam\build_display\actions-runner\_work'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Temp': 'C:\Users\hkam\build_display\actions-runner\_work\_temp'
+[2023-03-02 06:51:21Z INFO ExecutionContext] Write event payload to C:\Users\hkam\build_display\actions-runner\_work\_temp\_github_workflow\event.json
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Root': 'C:\Users\hkam\build_display\actions-runner'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Work': 'C:\Users\hkam\build_display\actions-runner\_work'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Temp': 'C:\Users\hkam\build_display\actions-runner\_work\_temp'
+[2023-03-02 06:51:21Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IFileCommandExtension'
+[2023-03-02 06:51:21Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddPathFileCommand, Runner.Worker
+[2023-03-02 06:51:21Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetEnvFileCommand, Runner.Worker
+[2023-03-02 06:51:21Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.CreateStepSummaryCommand, Runner.Worker
+[2023-03-02 06:51:21Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SaveStateFileCommand, Runner.Worker
+[2023-03-02 06:51:21Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetOutputFileCommand, Runner.Worker
+[2023-03-02 06:51:21Z INFO ExtensionManager] Getting extensions for interface: 'GitHub.Runner.Worker.IActionCommandExtension'
+[2023-03-02 06:51:21Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.InternalPluginSetRepoPathCommandExtension, Runner.Worker
+[2023-03-02 06:51:21Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetEnvCommandExtension, Runner.Worker
+[2023-03-02 06:51:21Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SetOutputCommandExtension, Runner.Worker
+[2023-03-02 06:51:21Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.SaveStateCommandExtension, Runner.Worker
+[2023-03-02 06:51:21Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddPathCommandExtension, Runner.Worker
+[2023-03-02 06:51:21Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddMaskCommandExtension, Runner.Worker
+[2023-03-02 06:51:21Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.AddMatcherCommandExtension, Runner.Worker
+[2023-03-02 06:51:21Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.RemoveMatcherCommandExtension, Runner.Worker
+[2023-03-02 06:51:21Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.WarningCommandExtension, Runner.Worker
+[2023-03-02 06:51:21Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.ErrorCommandExtension, Runner.Worker
+[2023-03-02 06:51:21Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.NoticeCommandExtension, Runner.Worker
+[2023-03-02 06:51:21Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.DebugCommandExtension, Runner.Worker
+[2023-03-02 06:51:21Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.GroupCommandExtension, Runner.Worker
+[2023-03-02 06:51:21Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.EndGroupCommandExtension, Runner.Worker
+[2023-03-02 06:51:21Z INFO ExtensionManager] Creating instance: GitHub.Runner.Worker.EchoCommandExtension, Runner.Worker
+[2023-03-02 06:51:21Z INFO ActionCommandManager] Register action command extension for command internal-set-repo-path
+[2023-03-02 06:51:21Z INFO ActionCommandManager] Register action command extension for command set-env
+[2023-03-02 06:51:21Z INFO ActionCommandManager] Register action command extension for command set-output
+[2023-03-02 06:51:21Z INFO ActionCommandManager] Register action command extension for command save-state
+[2023-03-02 06:51:21Z INFO ActionCommandManager] Register action command extension for command add-path
+[2023-03-02 06:51:21Z INFO ActionCommandManager] Register action command extension for command add-mask
+[2023-03-02 06:51:21Z INFO ActionCommandManager] Register action command extension for command add-matcher
+[2023-03-02 06:51:21Z INFO ActionCommandManager] Register action command extension for command remove-matcher
+[2023-03-02 06:51:21Z INFO ActionCommandManager] Register action command extension for command warning
+[2023-03-02 06:51:21Z INFO ActionCommandManager] Register action command extension for command error
+[2023-03-02 06:51:21Z INFO ActionCommandManager] Register action command extension for command notice
+[2023-03-02 06:51:21Z INFO ActionCommandManager] Register action command extension for command debug
+[2023-03-02 06:51:21Z INFO ActionCommandManager] Register action command extension for command group
+[2023-03-02 06:51:21Z INFO ActionCommandManager] Register action command extension for command endgroup
+[2023-03-02 06:51:21Z INFO ActionCommandManager] Register action command extension for command echo
+[2023-03-02 06:51:21Z INFO ScriptHandler] Which: 'pwsh'
+[2023-03-02 06:51:21Z INFO ScriptHandler] pwsh: command not found. Make sure 'pwsh' is installed and its location included in the 'Path' environment variable.
+[2023-03-02 06:51:21Z INFO ScriptHandler] Defaulting to powershell
+[2023-03-02 06:51:21Z INFO ScriptHandler] Which: 'powershell'
+[2023-03-02 06:51:21Z INFO ScriptHandler] Location: 'C:\windows\System32\WindowsPowerShell\v1.0\powershell.EXE'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Root': 'C:\Users\hkam\build_display\actions-runner'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Work': 'C:\Users\hkam\build_display\actions-runner\_work'
+[2023-03-02 06:51:21Z INFO HostContext] Well known directory 'Temp': 'C:\Users\hkam\build_display\actions-runner\_work\_temp'
+[2023-03-02 06:51:21Z INFO ScriptHandler] Which: 'pwsh'
+[2023-03-02 06:51:21Z INFO ScriptHandler] pwsh: command not found. Make sure 'pwsh' is installed and its location included in the 'Path' environment variable.
+[2023-03-02 06:51:21Z INFO ScriptHandler] Defaulting to powershell
+[2023-03-02 06:51:21Z INFO ScriptHandler] Which: 'powershell'
+[2023-03-02 06:51:21Z INFO ScriptHandler] Location: 'C:\windows\System32\WindowsPowerShell\v1.0\powershell.EXE'
+[2023-03-02 06:51:21Z INFO ProcessInvokerWrapper] Starting process:
+[2023-03-02 06:51:21Z INFO ProcessInvokerWrapper]   File name: 'C:\windows\System32\WindowsPowerShell\v1.0\powershell.EXE'
+[2023-03-02 06:51:21Z INFO ProcessInvokerWrapper]   Arguments: '-command ". 'C:\Users\hkam\build_display\actions-runner\_work\_temp\22a8f1f7-ac74-49d1-9eff-4786b1e19033.ps1'"'
+[2023-03-02 06:51:21Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\hkam\build_display\actions-runner\_work\dynamic_readme\dynamic_readme'
+[2023-03-02 06:51:21Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-03-02 06:51:21Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-03-02 06:51:21Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'False'
+[2023-03-02 06:51:21Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-03-02 06:51:21Z INFO ProcessInvokerWrapper]   Persist current code page: 'True'
+[2023-03-02 06:51:21Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-03-02 06:51:21Z INFO ProcessInvokerWrapper]   High priority process: 'False'
+[2023-03-02 06:51:21Z INFO ProcessInvokerWrapper] Process started with process id 6776, waiting for process exit.
+[2023-03-02 06:51:22Z INFO JobServerQueue] Job timeline record has been updated for the first time.
+[2023-03-02 06:51:22Z INFO JobServer] Successfully started websocket client.
+[2023-03-02 06:51:22Z INFO JobServerQueue] Try to append 1 batches web console lines for record '0fd59cc5-2b89-4112-b1c0-7b3c62da496a', success rate: 1/1.
+[2023-03-02 06:51:22Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-02 06:51:22Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-02 06:51:22Z INFO ProcessInvokerWrapper] Finished process 6776 with exit code 0, and elapsed time 00:00:00.9015366.
+[2023-03-02 06:51:22Z INFO CreateStepSummaryCommand] Step Summary file (C:\Users\hkam\build_display\actions-runner\_work\_temp\_runner_file_commands\step_summary_778a6442-fd5d-4099-b022-45da2522a578) is empty; skipping attachment upload
+[2023-03-02 06:51:22Z INFO StepsRunner] Step result: 
+[2023-03-02 06:51:22Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "powershell",
+  "type": "run",
+  "stage": "Main",
+  "stepId": "df645e1b-cdcb-586f-9579-5632a599214c",
+  "stepContextName": "__run",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 2,
+  "startTime": "2023-03-02T06:51:21.4963662Z",
+  "finishTime": "2023-03-02T06:51:22.5373211Z"
+}.
+[2023-03-02 06:51:22Z INFO StepsRunner] No need for updating job result with current step result 'Succeeded'.
+[2023-03-02 06:51:22Z INFO StepsRunner] Current state: job state = ''
+[2023-03-02 06:51:22Z INFO JobRunner] Finalize job.
+[2023-03-02 06:51:22Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:51:22Z INFO HostContext] Well known directory 'Root': 'C:\Users\hkam\build_display\actions-runner'
+[2023-03-02 06:51:22Z INFO HostContext] Well known directory 'Diag': 'C:\Users\hkam\build_display\actions-runner\_diag'
+[2023-03-02 06:51:22Z INFO JobExtension] Initialize Env context
+[2023-03-02 06:51:22Z INFO JobExtension] Initialize steps context
+[2023-03-02 06:51:22Z INFO JobExtension] Total accessible running process: 270.
+[2023-03-02 06:51:22Z INFO ExecutionContext] Publish step telemetry for current step {
+  "action": "complete_job",
+  "type": "runner",
+  "stage": "Post",
+  "stepId": "41b53cbb-74dc-4ddc-acb6-347681a40682",
+  "result": "succeeded",
+  "errorMessages": [],
+  "executionTimeInSeconds": 1,
+  "startTime": "2023-03-02T06:51:22.5496031Z",
+  "finishTime": "2023-03-02T06:51:22.5573251Z"
+}.
+[2023-03-02 06:51:22Z INFO JobRunner] Job result after all job steps finish: Succeeded
+[2023-03-02 06:51:22Z INFO JobRunner] Completing the job execution context.
+[2023-03-02 06:51:22Z INFO JobServerQueue] Try to append 1 batches web console lines for record 'df645e1b-cdcb-586f-9579-5632a599214c', success rate: 1/1.
+[2023-03-02 06:51:22Z INFO JobServerQueue] Try to append 1 batches web console lines for record '41b53cbb-74dc-4ddc-acb6-347681a40682', success rate: 1/1.
+[2023-03-02 06:51:22Z INFO JobRunner] Shutting down the job server queue.
+[2023-03-02 06:51:22Z INFO JobServerQueue] Fire signal to shutdown all queues.
+[2023-03-02 06:51:22Z INFO JobServerQueue] Try to upload 1 log files or attachments, success rate: 1/1.
+[2023-03-02 06:51:23Z INFO JobServerQueue] All queue process task stopped.
+[2023-03-02 06:51:23Z INFO JobServerQueue] Web console line queue drained.
+[2023-03-02 06:51:23Z INFO JobServerQueue] Uploading 3 files in one shot.
+[2023-03-02 06:51:25Z INFO JobServerQueue] Try to upload 3 log files or attachments, success rate: 3/3.
+[2023-03-02 06:51:25Z INFO JobServerQueue] File upload queue drained.
+[2023-03-02 06:51:25Z INFO JobServerQueue] Starting results-based upload queue...
+[2023-03-02 06:51:25Z INFO JobServerQueue] Results summary upload queue drained.
+[2023-03-02 06:51:25Z INFO JobServerQueue] Timeline update queue drained.
+[2023-03-02 06:51:25Z INFO JobServerQueue] Disposing job server ...
+[2023-03-02 06:51:25Z INFO JobServerQueue] All queue process tasks have been stopped, and all queues are drained.
+[2023-03-02 06:51:25Z INFO TempDirectoryManager] Cleaning runner temp folder: C:\Users\hkam\build_display\actions-runner\_work\_temp
+[2023-03-02 06:51:25Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:51:25Z INFO HostContext] Well known directory 'Root': 'C:\Users\hkam\build_display\actions-runner'
+[2023-03-02 06:51:25Z INFO HostContext] Well known directory 'Diag': 'C:\Users\hkam\build_display\actions-runner\_diag'
+[2023-03-02 06:51:25Z INFO HostContext] Well known config file 'Telemetry': 'C:\Users\hkam\build_display\actions-runner\_diag\.telemetry'
+[2023-03-02 06:51:25Z INFO JobRunner] Raising job completed event
+[2023-03-02 06:51:26Z INFO Worker] Job completed.

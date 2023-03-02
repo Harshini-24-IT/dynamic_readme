@@ -22,31 +22,28 @@ const UsingFetch = () => {
   return (
     <>
     
-    <body className = "h-screen bg-gradient-to-r from-rose-300 to-purple-300 ">   
-    <table class="table-auto border-separate border-spacing-2 ml-6 border border-black ...">
+    <body className = "h-screen bg-gradient-to-r from-cyan-200 to-lime-200 ">
+   <div style={{paddingTop: "1rem"}}>
+ <table class="mt-4 table-auto border-separate border-spacing-2 ml-6 border border-black ...">
   <thead class="mb-5">
     <tr >
-    <th class="border border-black ...">Build Name</th>
-      <th class="border border-black ...">Current Run time </th>
+    <th class="border border-black ... p-4">Id</th>
+      <th class="border border-black ... p-4">Name</th>
+      <th class="border border-black ... p-4">Phone</th>
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td class="border border-black ..."> Java service Editor </td>
-      <td class="border border-black ..."> 11.11 ms </td>
-    </tr>
-    <tr>
-      <td class="border border-black ..."> MSR based cloud default execution </td>
-      <td class="border border-black ..."> 10.10 ms </td>
-    </tr>
-    <tr>
-      <td class="border border-black ..."> Cloud IS </td>
-      <td class="border border-black ..."> 12.12 ms </td>
-    </tr>
-    
-  </tbody>
-</table>
+    {users.map(user => (
+    <tr key={user.id}>
+    <td class="border border-black ... p-4"> {user.id} </td>
+    <td class="border border-black ... p-4">  {user.name}</td>
+    <td class="border border-black ... p-4">  {user.phone}</td>
 
+  </tr>
+    ))}  
+  </tbody> 
+</table> 
+</div>
     </body>
  
     </>

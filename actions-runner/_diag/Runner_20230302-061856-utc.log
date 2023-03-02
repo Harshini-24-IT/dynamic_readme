@@ -1,0 +1,727 @@
+[2023-03-02 06:18:56Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2023-03-02 06:18:56Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:18:56Z INFO HostContext] Well known directory 'Root': 'C:\Users\hkam\build_display\actions-runner'
+[2023-03-02 06:18:56Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\hkam\build_display\actions-runner\.credentials'
+[2023-03-02 06:18:57Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:18:57Z INFO HostContext] Well known directory 'Root': 'C:\Users\hkam\build_display\actions-runner'
+[2023-03-02 06:18:57Z INFO HostContext] Well known config file 'Runner': 'C:\Users\hkam\build_display\actions-runner\.runner'
+[2023-03-02 06:18:57Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2023-03-02 06:18:57Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.19044.
+[2023-03-02 06:18:57Z INFO Listener] Version: 2.301.1
+[2023-03-02 06:18:57Z INFO Listener] Commit: f764f5dfa75a74600ef491599be8d4fea33ccdaf
+[2023-03-02 06:18:57Z INFO Listener] Culture: en-IN
+[2023-03-02 06:18:57Z INFO Listener] UI Culture: en-US
+[2023-03-02 06:18:57Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:18:57Z INFO HostContext] Well known directory 'Root': 'C:\Users\hkam\build_display\actions-runner'
+[2023-03-02 06:18:57Z INFO Listener] Validating directory permissions for: 'C:\Users\hkam\build_display\actions-runner'
+[2023-03-02 06:18:57Z INFO CommandLineParser] Parse
+[2023-03-02 06:18:57Z INFO CommandLineParser] Parsing 1 args
+[2023-03-02 06:18:57Z INFO CommandLineParser] parsing argument
+[2023-03-02 06:18:57Z INFO CommandLineParser] HasArgs: False
+[2023-03-02 06:18:57Z INFO CommandLineParser] Adding Command: run
+[2023-03-02 06:18:57Z INFO Listener] Arguments parsed
+[2023-03-02 06:18:57Z INFO Runner] ExecuteCommand
+[2023-03-02 06:18:57Z INFO ConfigurationStore] currentAssemblyLocation: C:\Users\hkam\build_display\actions-runner\bin\Runner.Listener.dll
+[2023-03-02 06:18:57Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:18:57Z INFO ConfigurationStore] binPath: C:\Users\hkam\build_display\actions-runner\bin
+[2023-03-02 06:18:57Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:18:57Z INFO HostContext] Well known directory 'Root': 'C:\Users\hkam\build_display\actions-runner'
+[2023-03-02 06:18:57Z INFO ConfigurationStore] RootFolder: C:\Users\hkam\build_display\actions-runner
+[2023-03-02 06:18:57Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:18:57Z INFO HostContext] Well known directory 'Root': 'C:\Users\hkam\build_display\actions-runner'
+[2023-03-02 06:18:57Z INFO HostContext] Well known config file 'Runner': 'C:\Users\hkam\build_display\actions-runner\.runner'
+[2023-03-02 06:18:57Z INFO ConfigurationStore] ConfigFilePath: C:\Users\hkam\build_display\actions-runner\.runner
+[2023-03-02 06:18:57Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:18:57Z INFO HostContext] Well known directory 'Root': 'C:\Users\hkam\build_display\actions-runner'
+[2023-03-02 06:18:57Z INFO HostContext] Well known config file 'Credentials': 'C:\Users\hkam\build_display\actions-runner\.credentials'
+[2023-03-02 06:18:57Z INFO ConfigurationStore] CredFilePath: C:\Users\hkam\build_display\actions-runner\.credentials
+[2023-03-02 06:18:57Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:18:57Z INFO HostContext] Well known directory 'Root': 'C:\Users\hkam\build_display\actions-runner'
+[2023-03-02 06:18:57Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\Users\hkam\build_display\actions-runner\.credentials_migrated'
+[2023-03-02 06:18:57Z INFO ConfigurationStore] MigratedCredFilePath: C:\Users\hkam\build_display\actions-runner\.credentials_migrated
+[2023-03-02 06:18:57Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:18:57Z INFO HostContext] Well known directory 'Root': 'C:\Users\hkam\build_display\actions-runner'
+[2023-03-02 06:18:57Z INFO HostContext] Well known config file 'Service': 'C:\Users\hkam\build_display\actions-runner\.service'
+[2023-03-02 06:18:57Z INFO ConfigurationStore] ServiceConfigFilePath: C:\Users\hkam\build_display\actions-runner\.service
+[2023-03-02 06:18:57Z INFO CommandSettings] Flag 'help': 'False'
+[2023-03-02 06:18:57Z INFO CommandSettings] Flag 'version': 'False'
+[2023-03-02 06:18:57Z INFO CommandSettings] Flag 'commit': 'False'
+[2023-03-02 06:18:57Z INFO CommandSettings] Flag 'check': 'False'
+[2023-03-02 06:18:57Z INFO CommandSettings] Command 'configure': 'False'
+[2023-03-02 06:18:57Z INFO CommandSettings] Command 'remove': 'False'
+[2023-03-02 06:18:57Z INFO CommandSettings] Command 'warmup': 'False'
+[2023-03-02 06:18:57Z INFO ConfigurationManager] LoadSettings
+[2023-03-02 06:18:57Z INFO ConfigurationStore] IsConfigured()
+[2023-03-02 06:18:57Z INFO ConfigurationStore] IsConfigured: True
+[2023-03-02 06:18:57Z INFO ConfigurationManager] Is configured: True
+[2023-03-02 06:18:57Z INFO ConfigurationStore] Read setting file: 305 chars
+[2023-03-02 06:18:57Z INFO ConfigurationManager] Settings Loaded
+[2023-03-02 06:18:57Z INFO ConfigurationStore] IsServiceConfigured()
+[2023-03-02 06:18:57Z INFO ConfigurationStore] IsServiceConfigured: False
+[2023-03-02 06:18:57Z INFO CommandSettings] Command 'run': 'True'
+[2023-03-02 06:18:57Z INFO ConfigurationStore] IsConfigured()
+[2023-03-02 06:18:57Z INFO ConfigurationStore] IsConfigured: True
+[2023-03-02 06:18:57Z INFO ConfigurationManager] Is configured: True
+[2023-03-02 06:18:57Z INFO Runner] Could not parse the argument value '' for StartupType. Defaulting to Manual
+[2023-03-02 06:18:57Z INFO Runner] Set runner startup type - Manual
+[2023-03-02 06:18:57Z INFO CommandSettings] Flag 'once': 'False'
+[2023-03-02 06:18:57Z INFO CommandSettings] Flag 'once': 'False'
+[2023-03-02 06:18:57Z INFO Runner] RunAsync
+[2023-03-02 06:18:57Z INFO ConfigurationManager] LoadSettings
+[2023-03-02 06:18:57Z INFO ConfigurationStore] IsConfigured()
+[2023-03-02 06:18:57Z INFO ConfigurationStore] IsConfigured: True
+[2023-03-02 06:18:57Z INFO ConfigurationManager] Is configured: True
+[2023-03-02 06:18:57Z INFO ConfigurationManager] Settings Loaded
+[2023-03-02 06:18:57Z INFO MessageListener] {
+  "AgentId": 2,
+  "AgentName": "SAG-55YR3F3",
+  "PoolId": 1,
+  "PoolName": "Default",
+  "ServerUrl": "https://pipelines.actions.githubusercontent.com/k8FlMP1p02qkIxGNFzRRrSGh1h5DRc0fiH6ki7XOCnQH3olN7u",
+  "GitHubUrl": "https://github.com/Harshini-24-IT/dynamic_readme",
+  "WorkFolder": "_work"
+}
+[2023-03-02 06:18:57Z INFO MessageListener] Loading Credentials
+[2023-03-02 06:18:57Z INFO ConfigurationStore] HasCredentials()
+[2023-03-02 06:18:57Z INFO ConfigurationStore] stored True
+[2023-03-02 06:18:57Z INFO CredentialManager] GetCredentialProvider
+[2023-03-02 06:18:57Z INFO CredentialManager] Creating type OAuth
+[2023-03-02 06:18:57Z INFO CredentialManager] Creating credential type: OAuth
+[2023-03-02 06:18:57Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:18:57Z INFO HostContext] Well known directory 'Root': 'C:\Users\hkam\build_display\actions-runner'
+[2023-03-02 06:18:57Z INFO HostContext] Well known config file 'RSACredentials': 'C:\Users\hkam\build_display\actions-runner\.credentials_rsaparams'
+[2023-03-02 06:18:57Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\hkam\build_display\actions-runner\.credentials_rsaparams
+[2023-03-02 06:18:57Z INFO MessageListener] Attempt to create session.
+[2023-03-02 06:18:57Z INFO MessageListener] Connecting to the Runner Server...
+[2023-03-02 06:18:57Z INFO RunnerServer] EstablishVssConnection
+[2023-03-02 06:18:57Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2023-03-02 06:18:57Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-03-02 06:18:57Z INFO RunnerServer] EstablishVssConnection
+[2023-03-02 06:18:57Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-03-02 06:18:57Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-03-02 06:18:57Z INFO RunnerServer] EstablishVssConnection
+[2023-03-02 06:18:57Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-03-02 06:18:57Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-03-02 06:18:57Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-03-02 06:18:57Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-03-02 06:18:57Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-03-02 06:18:57Z INFO MessageListener] VssConnection created
+[2023-03-02 06:18:57Z INFO Terminal] WRITE LINE: 
+[2023-03-02 06:18:57Z INFO Terminal] WRITE LINE: 
+[2023-03-02 06:18:58Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\hkam\build_display\actions-runner\.credentials_rsaparams
+[2023-03-02 06:18:58Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\hkam\build_display\actions-runner\.credentials_rsaparams
+[2023-03-02 06:18:58Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-03-02 06:18:59Z INFO MessageListener] Session created.
+[2023-03-02 06:18:59Z INFO Terminal] WRITE LINE: Current runner version: '2.301.1'
+[2023-03-02 06:18:59Z INFO Terminal] WRITE LINE: 2023-03-02 06:18:59Z: Listening for Jobs
+[2023-03-02 06:18:59Z INFO JobDispatcher] Set runner/worker IPC timeout to 30 seconds.
+[2023-03-02 06:21:16Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\hkam\build_display\actions-runner\.credentials_rsaparams
+[2023-03-02 06:21:16Z INFO MessageListener] Message '1' received from session '5177e1f3-f5e4-4a23-a7c6-87e13cb8b89e'.
+[2023-03-02 06:21:16Z INFO Runner] Received job message of length 19256 from service, with hash '49d144df003e7217d50ce94ba7236282ce780692bef90e6d121b7ae52ed8887e'
+[2023-03-02 06:21:16Z INFO JobDispatcher] Job request 4 for plan 76e34911-a49e-4f9f-a70e-8390744bd466 job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8 received.
+[2023-03-02 06:21:16Z INFO JobDispatcher] Pull OrchestrationId 76e34911-a49e-4f9f-a70e-8390744bd466.today_job.__default from JWT claims
+[2023-03-02 06:21:16Z INFO Terminal] WRITE LINE: 2023-03-02 06:21:16Z: Running job: today_job
+[2023-03-02 06:21:16Z INFO JobDispatcher] Start renew job request 4 for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8.
+[2023-03-02 06:21:16Z INFO JobDispatcher] Successfully renew job request 4, job is valid till 02-03-2023 06:31:15
+[2023-03-02 06:21:16Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:21:16Z INFO ProcessInvokerWrapper] Starting process:
+[2023-03-02 06:21:16Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\hkam\build_display\actions-runner\bin\Runner.Worker.exe'
+[2023-03-02 06:21:16Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 1856 1652'
+[2023-03-02 06:21:16Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:21:16Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-03-02 06:21:16Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-03-02 06:21:16Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-03-02 06:21:16Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-03-02 06:21:16Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-03-02 06:21:16Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-03-02 06:21:16Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-03-02 06:21:16Z INFO ProcessInvokerWrapper] Process started with process id 10960, waiting for process exit.
+[2023-03-02 06:21:16Z INFO JobDispatcher] Send job request message to worker for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8.
+[2023-03-02 06:21:16Z INFO ProcessChannel] Sending message of length 19256, with hash '49d144df003e7217d50ce94ba7236282ce780692bef90e6d121b7ae52ed8887e'
+[2023-03-02 06:21:17Z INFO JobNotification] Entering JobStarted Notification
+[2023-03-02 06:21:17Z INFO JobNotification] Entering StartMonitor
+[2023-03-02 06:21:21Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-02 06:21:21Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-02 06:21:21Z INFO ProcessInvokerWrapper] Finished process 10960 with exit code 100, and elapsed time 00:00:05.1911469.
+[2023-03-02 06:21:21Z INFO JobDispatcher] Worker finished for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8. Code: 100
+[2023-03-02 06:21:21Z INFO JobDispatcher] finish job request for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8 with result: Succeeded
+[2023-03-02 06:21:21Z INFO Terminal] WRITE LINE: 2023-03-02 06:21:21Z: Job today_job completed with result: Succeeded
+[2023-03-02 06:21:21Z INFO JobDispatcher] Stop renew job request for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8.
+[2023-03-02 06:21:21Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 4.
+[2023-03-02 06:21:21Z INFO JobNotification] Entering JobCompleted Notification
+[2023-03-02 06:21:21Z INFO JobNotification] Entering EndMonitor
+[2023-03-02 06:37:00Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\hkam\build_display\actions-runner\.credentials_rsaparams
+[2023-03-02 06:37:00Z INFO MessageListener] Message '2' received from session '5177e1f3-f5e4-4a23-a7c6-87e13cb8b89e'.
+[2023-03-02 06:37:00Z INFO Runner] Received job message of length 19255 from service, with hash '680fa1e83e9d4eb579df4db914efa8d8dbc549a7380b069e7dbb1bf5f95a2790'
+[2023-03-02 06:37:00Z INFO JobDispatcher] Job request 5 for plan b2b9af39-bf6e-4878-9794-666e8065c1c3 job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8 received.
+[2023-03-02 06:37:00Z INFO JobDispatcher] Pull OrchestrationId b2b9af39-bf6e-4878-9794-666e8065c1c3.today_job.__default from JWT claims
+[2023-03-02 06:37:00Z INFO JobDispatcher] Job request fc4c0bc6-15b4-5905-22ab-6b6b065abfc8 processed succeed.
+[2023-03-02 06:37:00Z INFO Terminal] WRITE LINE: 2023-03-02 06:37:00Z: Running job: today_job
+[2023-03-02 06:37:00Z INFO JobDispatcher] Start renew job request 5 for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8.
+[2023-03-02 06:37:01Z INFO JobDispatcher] Successfully renew job request 5, job is valid till 02-03-2023 06:47:00
+[2023-03-02 06:37:01Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:37:01Z INFO ProcessInvokerWrapper] Starting process:
+[2023-03-02 06:37:01Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\hkam\build_display\actions-runner\bin\Runner.Worker.exe'
+[2023-03-02 06:37:01Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2556 604'
+[2023-03-02 06:37:01Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:37:01Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-03-02 06:37:01Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-03-02 06:37:01Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-03-02 06:37:01Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-03-02 06:37:01Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-03-02 06:37:01Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-03-02 06:37:01Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-03-02 06:37:01Z INFO ProcessInvokerWrapper] Process started with process id 23072, waiting for process exit.
+[2023-03-02 06:37:01Z INFO JobDispatcher] Send job request message to worker for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8.
+[2023-03-02 06:37:01Z INFO ProcessChannel] Sending message of length 19255, with hash '680fa1e83e9d4eb579df4db914efa8d8dbc549a7380b069e7dbb1bf5f95a2790'
+[2023-03-02 06:37:01Z INFO JobNotification] Entering JobStarted Notification
+[2023-03-02 06:37:01Z INFO JobNotification] Entering StartMonitor
+[2023-03-02 06:37:07Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-02 06:37:07Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-02 06:37:07Z INFO ProcessInvokerWrapper] Finished process 23072 with exit code 100, and elapsed time 00:00:05.9014748.
+[2023-03-02 06:37:07Z INFO JobDispatcher] Worker finished for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8. Code: 100
+[2023-03-02 06:37:07Z INFO JobDispatcher] finish job request for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8 with result: Succeeded
+[2023-03-02 06:37:07Z INFO Terminal] WRITE LINE: 2023-03-02 06:37:07Z: Job today_job completed with result: Succeeded
+[2023-03-02 06:37:07Z INFO JobDispatcher] Stop renew job request for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8.
+[2023-03-02 06:37:07Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 5.
+[2023-03-02 06:37:07Z INFO JobNotification] Entering JobCompleted Notification
+[2023-03-02 06:37:07Z INFO JobNotification] Entering EndMonitor
+[2023-03-02 06:38:43Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\hkam\build_display\actions-runner\.credentials_rsaparams
+[2023-03-02 06:38:43Z INFO MessageListener] Message '3' received from session '5177e1f3-f5e4-4a23-a7c6-87e13cb8b89e'.
+[2023-03-02 06:38:43Z INFO Runner] Received job message of length 19189 from service, with hash 'b4bf49ded3f7d362b61bc8be1136d776546d3345a5111379571a7d6e6e266ef8'
+[2023-03-02 06:38:43Z INFO JobDispatcher] Job request 6 for plan 78a08827-81dc-4038-a6b8-a2609e047a10 job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8 received.
+[2023-03-02 06:38:43Z INFO JobDispatcher] Pull OrchestrationId 78a08827-81dc-4038-a6b8-a2609e047a10.today_job.__default from JWT claims
+[2023-03-02 06:38:43Z INFO JobDispatcher] Job request fc4c0bc6-15b4-5905-22ab-6b6b065abfc8 processed succeed.
+[2023-03-02 06:38:43Z INFO Terminal] WRITE LINE: 2023-03-02 06:38:43Z: Running job: today_job
+[2023-03-02 06:38:43Z INFO JobDispatcher] Start renew job request 6 for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8.
+[2023-03-02 06:38:43Z INFO JobDispatcher] Successfully renew job request 6, job is valid till 02-03-2023 06:48:43
+[2023-03-02 06:38:43Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:38:43Z INFO ProcessInvokerWrapper] Starting process:
+[2023-03-02 06:38:43Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\hkam\build_display\actions-runner\bin\Runner.Worker.exe'
+[2023-03-02 06:38:43Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2696 2712'
+[2023-03-02 06:38:43Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:38:43Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-03-02 06:38:43Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-03-02 06:38:43Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-03-02 06:38:43Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-03-02 06:38:43Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-03-02 06:38:43Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-03-02 06:38:43Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-03-02 06:38:43Z INFO ProcessInvokerWrapper] Process started with process id 9304, waiting for process exit.
+[2023-03-02 06:38:43Z INFO JobDispatcher] Send job request message to worker for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8.
+[2023-03-02 06:38:43Z INFO ProcessChannel] Sending message of length 19189, with hash 'b4bf49ded3f7d362b61bc8be1136d776546d3345a5111379571a7d6e6e266ef8'
+[2023-03-02 06:38:44Z INFO JobNotification] Entering JobStarted Notification
+[2023-03-02 06:38:44Z INFO JobNotification] Entering StartMonitor
+[2023-03-02 06:38:49Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-02 06:38:49Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-02 06:38:49Z INFO ProcessInvokerWrapper] Finished process 9304 with exit code 100, and elapsed time 00:00:05.7431704.
+[2023-03-02 06:38:49Z INFO JobDispatcher] Worker finished for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8. Code: 100
+[2023-03-02 06:38:49Z INFO JobDispatcher] finish job request for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8 with result: Succeeded
+[2023-03-02 06:38:49Z INFO Terminal] WRITE LINE: 2023-03-02 06:38:49Z: Job today_job completed with result: Succeeded
+[2023-03-02 06:38:49Z INFO JobDispatcher] Stop renew job request for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8.
+[2023-03-02 06:38:49Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 6.
+[2023-03-02 06:38:49Z INFO JobNotification] Entering JobCompleted Notification
+[2023-03-02 06:38:49Z INFO JobNotification] Entering EndMonitor
+[2023-03-02 06:51:19Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\hkam\build_display\actions-runner\.credentials_rsaparams
+[2023-03-02 06:51:19Z INFO MessageListener] Message '4' received from session '5177e1f3-f5e4-4a23-a7c6-87e13cb8b89e'.
+[2023-03-02 06:51:19Z INFO Runner] Received job message of length 19189 from service, with hash '45a6ae71ea74f22253212d720a64f055c6808f9a4f7eb36b6d576580fa25af1e'
+[2023-03-02 06:51:19Z INFO JobDispatcher] Job request 7 for plan a4f6073f-1f08-49a9-bb1c-df5e5d6f960a job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8 received.
+[2023-03-02 06:51:19Z INFO JobDispatcher] Pull OrchestrationId a4f6073f-1f08-49a9-bb1c-df5e5d6f960a.today_job.__default from JWT claims
+[2023-03-02 06:51:19Z INFO JobDispatcher] Job request fc4c0bc6-15b4-5905-22ab-6b6b065abfc8 processed succeed.
+[2023-03-02 06:51:19Z INFO Terminal] WRITE LINE: 2023-03-02 06:51:19Z: Running job: today_job
+[2023-03-02 06:51:19Z INFO JobDispatcher] Start renew job request 7 for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8.
+[2023-03-02 06:51:19Z INFO JobDispatcher] Successfully renew job request 7, job is valid till 02-03-2023 07:01:18
+[2023-03-02 06:51:19Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:51:19Z INFO ProcessInvokerWrapper] Starting process:
+[2023-03-02 06:51:19Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\hkam\build_display\actions-runner\bin\Runner.Worker.exe'
+[2023-03-02 06:51:19Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 1584 1432'
+[2023-03-02 06:51:19Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:51:19Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-03-02 06:51:19Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-03-02 06:51:19Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-03-02 06:51:19Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-03-02 06:51:19Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-03-02 06:51:19Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-03-02 06:51:19Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-03-02 06:51:19Z INFO ProcessInvokerWrapper] Process started with process id 24768, waiting for process exit.
+[2023-03-02 06:51:19Z INFO JobDispatcher] Send job request message to worker for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8.
+[2023-03-02 06:51:19Z INFO ProcessChannel] Sending message of length 19189, with hash '45a6ae71ea74f22253212d720a64f055c6808f9a4f7eb36b6d576580fa25af1e'
+[2023-03-02 06:51:19Z INFO JobNotification] Entering JobStarted Notification
+[2023-03-02 06:51:19Z INFO JobNotification] Entering StartMonitor
+[2023-03-02 06:51:26Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-02 06:51:26Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-02 06:51:26Z INFO ProcessInvokerWrapper] Finished process 24768 with exit code 100, and elapsed time 00:00:06.3869470.
+[2023-03-02 06:51:26Z INFO JobDispatcher] Worker finished for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8. Code: 100
+[2023-03-02 06:51:26Z INFO JobDispatcher] finish job request for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8 with result: Succeeded
+[2023-03-02 06:51:26Z INFO Terminal] WRITE LINE: 2023-03-02 06:51:26Z: Job today_job completed with result: Succeeded
+[2023-03-02 06:51:26Z INFO JobDispatcher] Stop renew job request for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8.
+[2023-03-02 06:51:26Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 7.
+[2023-03-02 06:51:26Z INFO JobNotification] Entering JobCompleted Notification
+[2023-03-02 06:51:26Z INFO JobNotification] Entering EndMonitor
+[2023-03-02 06:56:08Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\hkam\build_display\actions-runner\.credentials_rsaparams
+[2023-03-02 06:56:08Z INFO MessageListener] Message '5' received from session '5177e1f3-f5e4-4a23-a7c6-87e13cb8b89e'.
+[2023-03-02 06:56:08Z INFO Runner] Received job message of length 19189 from service, with hash '23b61a5b5fa58e1953e3416f011d8dd32358399dbc9b9df3ca07c4a8a89b0462'
+[2023-03-02 06:56:08Z INFO JobDispatcher] Job request 8 for plan 57e6508f-e662-4949-b8e8-1b1b8d9df9bd job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8 received.
+[2023-03-02 06:56:08Z INFO JobDispatcher] Pull OrchestrationId 57e6508f-e662-4949-b8e8-1b1b8d9df9bd.today_job.__default from JWT claims
+[2023-03-02 06:56:08Z INFO JobDispatcher] Job request fc4c0bc6-15b4-5905-22ab-6b6b065abfc8 processed succeed.
+[2023-03-02 06:56:08Z INFO Terminal] WRITE LINE: 2023-03-02 06:56:08Z: Running job: today_job
+[2023-03-02 06:56:08Z INFO JobDispatcher] Start renew job request 8 for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8.
+[2023-03-02 06:56:09Z INFO JobDispatcher] Successfully renew job request 8, job is valid till 02-03-2023 07:06:08
+[2023-03-02 06:56:09Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:56:09Z INFO ProcessInvokerWrapper] Starting process:
+[2023-03-02 06:56:09Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\hkam\build_display\actions-runner\bin\Runner.Worker.exe'
+[2023-03-02 06:56:09Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2804 2816'
+[2023-03-02 06:56:09Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 06:56:09Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-03-02 06:56:09Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-03-02 06:56:09Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-03-02 06:56:09Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-03-02 06:56:09Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-03-02 06:56:09Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-03-02 06:56:09Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-03-02 06:56:09Z INFO ProcessInvokerWrapper] Process started with process id 23460, waiting for process exit.
+[2023-03-02 06:56:09Z INFO JobDispatcher] Send job request message to worker for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8.
+[2023-03-02 06:56:09Z INFO ProcessChannel] Sending message of length 19189, with hash '23b61a5b5fa58e1953e3416f011d8dd32358399dbc9b9df3ca07c4a8a89b0462'
+[2023-03-02 06:56:09Z INFO JobNotification] Entering JobStarted Notification
+[2023-03-02 06:56:09Z INFO JobNotification] Entering StartMonitor
+[2023-03-02 06:56:15Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-02 06:56:15Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-02 06:56:16Z INFO ProcessInvokerWrapper] Finished process 23460 with exit code 100, and elapsed time 00:00:06.7100868.
+[2023-03-02 06:56:16Z INFO JobDispatcher] Worker finished for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8. Code: 100
+[2023-03-02 06:56:16Z INFO JobDispatcher] finish job request for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8 with result: Succeeded
+[2023-03-02 06:56:16Z INFO Terminal] WRITE LINE: 2023-03-02 06:56:16Z: Job today_job completed with result: Succeeded
+[2023-03-02 06:56:16Z INFO JobDispatcher] Stop renew job request for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8.
+[2023-03-02 06:56:16Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 8.
+[2023-03-02 06:56:16Z INFO JobNotification] Entering JobCompleted Notification
+[2023-03-02 06:56:16Z INFO JobNotification] Entering EndMonitor
+[2023-03-02 07:14:38Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\hkam\build_display\actions-runner\.credentials_rsaparams
+[2023-03-02 07:14:38Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-03-02 07:26:24Z INFO MessageListener] No message retrieved from session '5177e1f3-f5e4-4a23-a7c6-87e13cb8b89e' within last 30 minutes.
+[2023-03-02 07:48:22Z WARN GitHubActionsService] GET request to https://pipelines.actions.githubusercontent.com/k8FlMP1p02qkIxGNFzRRrSGh1h5DRc0fiH6ki7XOCnQH3olN7u/_apis/distributedtask/pools/1/messages?sessionId=5177e1f3-f5e4-4a23-a7c6-87e13cb8b89e&lastMessageId=5&status=Online&runnerVersion=2.301.1 timed out after 60 seconds.
+[2023-03-02 07:48:22Z ERR  MessageListener] Catch exception during get next message.
+[2023-03-02 07:48:22Z ERR  MessageListener] System.TimeoutException: The HTTP request timed out after 00:01:00.
+ ---> System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpRetryMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync(HttpRequestMessage message, HttpCompletionOption completionOption, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpRequestMessage message, Object userState, CancellationToken cancellationToken)
+   at GitHub.Services.WebApi.VssHttpClientBase.SendAsync[T](HttpMethod method, IEnumerable`1 additionalHeaders, Guid locationId, Object routeValues, ApiResourceVersion version, HttpContent content, IEnumerable`1 queryParameters, Object userState, CancellationToken cancellationToken)
+   at GitHub.Runner.Listener.MessageListener.GetNextMessageAsync(CancellationToken token)
+[2023-03-02 07:48:22Z ERR  MessageListener] #####################################################
+[2023-03-02 07:48:22Z ERR  MessageListener] System.Threading.Tasks.TaskCanceledException: The operation was canceled.
+ ---> System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithNtAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean isProxyAuth, HttpConnection connection, HttpConnectionPool connectionPool, CancellationToken cancellationToken)
+   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)
+   at System.Net.Http.AuthenticationHelper.SendWithAuthAsync(HttpRequestMessage request, Uri authUri, Boolean async, ICredentials credentials, Boolean preAuthenticate, Boolean isProxyAuth, Boolean doRequestAuth, HttpConnectionPool pool, CancellationToken cancellationToken)
+   at System.Net.Http.DecompressionHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+   at GitHub.Services.Common.VssHttpMessageHandler.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+[2023-03-02 07:48:22Z ERR  MessageListener] #####################################################
+[2023-03-02 07:48:22Z ERR  MessageListener] System.IO.IOException: Unable to read data from the transport connection: The I/O operation has been aborted because of either a thread exit or an application request..
+ ---> System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+   --- End of inner exception stack trace ---
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)
+   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource<System.Int32>.GetResult(Int16 token)
+   at System.Net.Security.SslStream.EnsureFullTlsFrameAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ReadAsyncInternal[TIOAdapter](TIOAdapter adapter, Memory`1 buffer)
+   at System.Net.Http.HttpConnection.SendAsyncCore(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)
+[2023-03-02 07:48:22Z ERR  MessageListener] #####################################################
+[2023-03-02 07:48:22Z ERR  MessageListener] System.Net.Sockets.SocketException (995): The I/O operation has been aborted because of either a thread exit or an application request.
+[2023-03-02 07:48:22Z INFO MessageListener] Retriable exception: The HTTP request timed out after 00:01:00.
+[2023-03-02 07:48:22Z ERR  Terminal] WRITE ERROR: 2023-03-02 07:48:22Z: Runner connect error: The HTTP request timed out after 00:01:00.. Retrying until reconnected.
+[2023-03-02 07:48:22Z INFO RunnerServer] Refresh MessageQueue VssConnection to get on a different AFD node.
+[2023-03-02 07:48:22Z INFO RunnerServer] EstablishVssConnection
+[2023-03-02 07:48:22Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2023-03-02 07:48:22Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2023-03-02 07:48:23Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2023-03-02 07:48:23Z INFO MessageListener] Sleeping for 25.893 seconds before retrying.
+[2023-03-02 07:49:39Z INFO Terminal] WRITE LINE: 2023-03-02 07:49:39Z: Runner reconnected.
+[2023-03-02 07:57:12Z INFO MessageListener] No message retrieved from session '5177e1f3-f5e4-4a23-a7c6-87e13cb8b89e' within last 30 minutes.
+[2023-03-02 08:09:47Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\hkam\build_display\actions-runner\.credentials_rsaparams
+[2023-03-02 08:09:48Z INFO GitHubActionsService] AAD Correlation ID for this token request: Unknown
+[2023-03-02 08:27:24Z INFO MessageListener] No message retrieved from session '5177e1f3-f5e4-4a23-a7c6-87e13cb8b89e' within last 30 minutes.
+[2023-03-02 08:29:40Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\hkam\build_display\actions-runner\.credentials_rsaparams
+[2023-03-02 08:29:40Z INFO MessageListener] Message '6' received from session '5177e1f3-f5e4-4a23-a7c6-87e13cb8b89e'.
+[2023-03-02 08:29:40Z INFO Runner] Received job message of length 19266 from service, with hash '3ec74daf473c90aa4a5f3422d44ecec6f5bb72592c213a11e2f2c3b6a85b6ecf'
+[2023-03-02 08:29:40Z INFO JobDispatcher] Job request 9 for plan e389b66c-cdcd-42a0-a16f-8de293c97453 job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8 received.
+[2023-03-02 08:29:40Z INFO JobDispatcher] Pull OrchestrationId e389b66c-cdcd-42a0-a16f-8de293c97453.today_job.__default from JWT claims
+[2023-03-02 08:29:40Z INFO JobDispatcher] Job request fc4c0bc6-15b4-5905-22ab-6b6b065abfc8 processed succeed.
+[2023-03-02 08:29:40Z INFO Terminal] WRITE LINE: 2023-03-02 08:29:40Z: Running job: today_job
+[2023-03-02 08:29:40Z INFO JobDispatcher] Start renew job request 9 for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8.
+[2023-03-02 08:29:42Z INFO JobDispatcher] Successfully renew job request 9, job is valid till 02-03-2023 08:39:41
+[2023-03-02 08:29:42Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 08:29:42Z INFO ProcessInvokerWrapper] Starting process:
+[2023-03-02 08:29:42Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\hkam\build_display\actions-runner\bin\Runner.Worker.exe'
+[2023-03-02 08:29:42Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 3456 3296'
+[2023-03-02 08:29:42Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 08:29:42Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-03-02 08:29:42Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-03-02 08:29:42Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-03-02 08:29:42Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-03-02 08:29:42Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-03-02 08:29:42Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-03-02 08:29:42Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-03-02 08:29:42Z INFO ProcessInvokerWrapper] Process started with process id 2260, waiting for process exit.
+[2023-03-02 08:29:42Z INFO JobDispatcher] Send job request message to worker for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8.
+[2023-03-02 08:29:42Z INFO ProcessChannel] Sending message of length 19266, with hash '3ec74daf473c90aa4a5f3422d44ecec6f5bb72592c213a11e2f2c3b6a85b6ecf'
+[2023-03-02 08:29:42Z INFO JobNotification] Entering JobStarted Notification
+[2023-03-02 08:29:42Z INFO JobNotification] Entering StartMonitor
+[2023-03-02 08:29:48Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-02 08:29:48Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-02 08:29:48Z INFO ProcessInvokerWrapper] Finished process 2260 with exit code 100, and elapsed time 00:00:06.0638674.
+[2023-03-02 08:29:48Z INFO JobDispatcher] Worker finished for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8. Code: 100
+[2023-03-02 08:29:48Z INFO JobDispatcher] finish job request for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8 with result: Succeeded
+[2023-03-02 08:29:48Z INFO Terminal] WRITE LINE: 2023-03-02 08:29:48Z: Job today_job completed with result: Succeeded
+[2023-03-02 08:29:48Z INFO JobDispatcher] Stop renew job request for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8.
+[2023-03-02 08:29:48Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 9.
+[2023-03-02 08:29:48Z INFO JobNotification] Entering JobCompleted Notification
+[2023-03-02 08:29:48Z INFO JobNotification] Entering EndMonitor
+[2023-03-02 08:29:52Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\hkam\build_display\actions-runner\.credentials_rsaparams
+[2023-03-02 08:29:52Z INFO MessageListener] Message '7' received from session '5177e1f3-f5e4-4a23-a7c6-87e13cb8b89e'.
+[2023-03-02 08:29:52Z INFO Runner] Received job message of length 20203 from service, with hash '8c0466bad676da27a1e55740eb6caec85d140e2a70a927eef5572b92c90d54c4'
+[2023-03-02 08:29:52Z INFO JobDispatcher] Job request 10 for plan e389b66c-cdcd-42a0-a16f-8de293c97453 job 24e7ee36-8e59-5ffc-471a-a16683a727d4 received.
+[2023-03-02 08:29:52Z INFO JobDispatcher] Pull OrchestrationId e389b66c-cdcd-42a0-a16f-8de293c97453.new_job.__default from JWT claims
+[2023-03-02 08:29:52Z INFO JobDispatcher] Job request fc4c0bc6-15b4-5905-22ab-6b6b065abfc8 processed succeed.
+[2023-03-02 08:29:52Z INFO Terminal] WRITE LINE: 2023-03-02 08:29:52Z: Running job: new_job
+[2023-03-02 08:29:52Z INFO JobDispatcher] Start renew job request 10 for job 24e7ee36-8e59-5ffc-471a-a16683a727d4.
+[2023-03-02 08:29:53Z INFO JobDispatcher] Successfully renew job request 10, job is valid till 02-03-2023 08:39:52
+[2023-03-02 08:29:53Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 08:29:53Z INFO ProcessInvokerWrapper] Starting process:
+[2023-03-02 08:29:53Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\hkam\build_display\actions-runner\bin\Runner.Worker.exe'
+[2023-03-02 08:29:53Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 3320 3284'
+[2023-03-02 08:29:53Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 08:29:53Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-03-02 08:29:53Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-03-02 08:29:53Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-03-02 08:29:53Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-03-02 08:29:53Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-03-02 08:29:53Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-03-02 08:29:53Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-03-02 08:29:53Z INFO ProcessInvokerWrapper] Process started with process id 15552, waiting for process exit.
+[2023-03-02 08:29:53Z INFO JobDispatcher] Send job request message to worker for job 24e7ee36-8e59-5ffc-471a-a16683a727d4.
+[2023-03-02 08:29:53Z INFO ProcessChannel] Sending message of length 20203, with hash '8c0466bad676da27a1e55740eb6caec85d140e2a70a927eef5572b92c90d54c4'
+[2023-03-02 08:29:53Z INFO JobNotification] Entering JobStarted Notification
+[2023-03-02 08:29:53Z INFO JobNotification] Entering StartMonitor
+[2023-03-02 08:30:00Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-02 08:30:00Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-02 08:30:00Z INFO ProcessInvokerWrapper] Finished process 15552 with exit code 102, and elapsed time 00:00:07.2835767.
+[2023-03-02 08:30:00Z INFO JobDispatcher] Worker finished for job 24e7ee36-8e59-5ffc-471a-a16683a727d4. Code: 102
+[2023-03-02 08:30:00Z INFO JobDispatcher] finish job request for job 24e7ee36-8e59-5ffc-471a-a16683a727d4 with result: Failed
+[2023-03-02 08:30:00Z INFO Terminal] WRITE LINE: 2023-03-02 08:30:00Z: Job new_job completed with result: Failed
+[2023-03-02 08:30:00Z INFO JobDispatcher] Stop renew job request for job 24e7ee36-8e59-5ffc-471a-a16683a727d4.
+[2023-03-02 08:30:00Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 10.
+[2023-03-02 08:30:00Z INFO JobNotification] Entering JobCompleted Notification
+[2023-03-02 08:30:00Z INFO JobNotification] Entering EndMonitor
+[2023-03-02 08:45:49Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\hkam\build_display\actions-runner\.credentials_rsaparams
+[2023-03-02 08:45:49Z INFO MessageListener] Message '8' received from session '5177e1f3-f5e4-4a23-a7c6-87e13cb8b89e'.
+[2023-03-02 08:45:49Z INFO Runner] Received job message of length 19268 from service, with hash '1b0d4dab07cd384edc2f9f02692c99ae69603f5d3261a025bc8b569213fe20f9'
+[2023-03-02 08:45:49Z INFO JobDispatcher] Job request 11 for plan a2dafe2c-bf26-4d85-9c51-e075a21742d3 job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8 received.
+[2023-03-02 08:45:49Z INFO JobDispatcher] Pull OrchestrationId a2dafe2c-bf26-4d85-9c51-e075a21742d3.today_job.__default from JWT claims
+[2023-03-02 08:45:49Z INFO JobDispatcher] Job request 24e7ee36-8e59-5ffc-471a-a16683a727d4 processed succeed.
+[2023-03-02 08:45:49Z INFO Terminal] WRITE LINE: 2023-03-02 08:45:49Z: Running job: today_job
+[2023-03-02 08:45:49Z INFO JobDispatcher] Start renew job request 11 for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8.
+[2023-03-02 08:45:49Z INFO JobDispatcher] Successfully renew job request 11, job is valid till 02-03-2023 08:55:49
+[2023-03-02 08:45:49Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 08:45:49Z INFO ProcessInvokerWrapper] Starting process:
+[2023-03-02 08:45:49Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\hkam\build_display\actions-runner\bin\Runner.Worker.exe'
+[2023-03-02 08:45:49Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 3028 2344'
+[2023-03-02 08:45:49Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 08:45:49Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-03-02 08:45:49Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-03-02 08:45:49Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-03-02 08:45:49Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-03-02 08:45:49Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-03-02 08:45:49Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-03-02 08:45:49Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-03-02 08:45:49Z INFO ProcessInvokerWrapper] Process started with process id 4856, waiting for process exit.
+[2023-03-02 08:45:49Z INFO JobDispatcher] Send job request message to worker for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8.
+[2023-03-02 08:45:49Z INFO ProcessChannel] Sending message of length 19268, with hash '1b0d4dab07cd384edc2f9f02692c99ae69603f5d3261a025bc8b569213fe20f9'
+[2023-03-02 08:45:50Z INFO JobNotification] Entering JobStarted Notification
+[2023-03-02 08:45:50Z INFO JobNotification] Entering StartMonitor
+[2023-03-02 08:45:56Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-02 08:45:56Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-02 08:45:56Z INFO ProcessInvokerWrapper] Finished process 4856 with exit code 100, and elapsed time 00:00:06.5374176.
+[2023-03-02 08:45:56Z INFO JobDispatcher] Worker finished for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8. Code: 100
+[2023-03-02 08:45:56Z INFO JobDispatcher] finish job request for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8 with result: Succeeded
+[2023-03-02 08:45:56Z INFO Terminal] WRITE LINE: 2023-03-02 08:45:56Z: Job today_job completed with result: Succeeded
+[2023-03-02 08:45:56Z INFO JobDispatcher] Stop renew job request for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8.
+[2023-03-02 08:45:56Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 11.
+[2023-03-02 08:45:56Z INFO JobNotification] Entering JobCompleted Notification
+[2023-03-02 08:45:56Z INFO JobNotification] Entering EndMonitor
+[2023-03-02 08:46:00Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\hkam\build_display\actions-runner\.credentials_rsaparams
+[2023-03-02 08:46:00Z INFO MessageListener] Message '9' received from session '5177e1f3-f5e4-4a23-a7c6-87e13cb8b89e'.
+[2023-03-02 08:46:00Z INFO Runner] Received job message of length 20267 from service, with hash 'b2c0fcf943fe887bc4300c741f0a6faae3c0dced3cfcd156d9630b7bac476efb'
+[2023-03-02 08:46:00Z INFO JobDispatcher] Job request 12 for plan a2dafe2c-bf26-4d85-9c51-e075a21742d3 job 24e7ee36-8e59-5ffc-471a-a16683a727d4 received.
+[2023-03-02 08:46:00Z INFO JobDispatcher] Pull OrchestrationId a2dafe2c-bf26-4d85-9c51-e075a21742d3.new_job.__default from JWT claims
+[2023-03-02 08:46:00Z INFO JobDispatcher] Job request fc4c0bc6-15b4-5905-22ab-6b6b065abfc8 processed succeed.
+[2023-03-02 08:46:00Z INFO Terminal] WRITE LINE: 2023-03-02 08:46:00Z: Running job: new_job
+[2023-03-02 08:46:00Z INFO JobDispatcher] Start renew job request 12 for job 24e7ee36-8e59-5ffc-471a-a16683a727d4.
+[2023-03-02 08:46:00Z INFO JobDispatcher] Successfully renew job request 12, job is valid till 02-03-2023 08:55:59
+[2023-03-02 08:46:00Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 08:46:00Z INFO ProcessInvokerWrapper] Starting process:
+[2023-03-02 08:46:00Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\hkam\build_display\actions-runner\bin\Runner.Worker.exe'
+[2023-03-02 08:46:00Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2660 2280'
+[2023-03-02 08:46:00Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 08:46:00Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-03-02 08:46:00Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-03-02 08:46:00Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-03-02 08:46:00Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-03-02 08:46:00Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-03-02 08:46:00Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-03-02 08:46:00Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-03-02 08:46:00Z INFO ProcessInvokerWrapper] Process started with process id 16096, waiting for process exit.
+[2023-03-02 08:46:00Z INFO JobDispatcher] Send job request message to worker for job 24e7ee36-8e59-5ffc-471a-a16683a727d4.
+[2023-03-02 08:46:00Z INFO ProcessChannel] Sending message of length 20267, with hash 'b2c0fcf943fe887bc4300c741f0a6faae3c0dced3cfcd156d9630b7bac476efb'
+[2023-03-02 08:46:00Z INFO JobNotification] Entering JobStarted Notification
+[2023-03-02 08:46:00Z INFO JobNotification] Entering StartMonitor
+[2023-03-02 08:46:07Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-02 08:46:07Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-02 08:46:07Z INFO ProcessInvokerWrapper] Finished process 16096 with exit code 102, and elapsed time 00:00:07.2347922.
+[2023-03-02 08:46:07Z INFO JobDispatcher] Worker finished for job 24e7ee36-8e59-5ffc-471a-a16683a727d4. Code: 102
+[2023-03-02 08:46:07Z INFO JobDispatcher] finish job request for job 24e7ee36-8e59-5ffc-471a-a16683a727d4 with result: Failed
+[2023-03-02 08:46:07Z INFO Terminal] WRITE LINE: 2023-03-02 08:46:07Z: Job new_job completed with result: Failed
+[2023-03-02 08:46:07Z INFO JobDispatcher] Stop renew job request for job 24e7ee36-8e59-5ffc-471a-a16683a727d4.
+[2023-03-02 08:46:07Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 12.
+[2023-03-02 08:46:07Z INFO JobNotification] Entering JobCompleted Notification
+[2023-03-02 08:46:07Z INFO JobNotification] Entering EndMonitor
+[2023-03-02 08:48:19Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\hkam\build_display\actions-runner\.credentials_rsaparams
+[2023-03-02 08:48:19Z INFO MessageListener] Message '10' received from session '5177e1f3-f5e4-4a23-a7c6-87e13cb8b89e'.
+[2023-03-02 08:48:19Z INFO Runner] Received job message of length 19268 from service, with hash '12952e76a6fb7188dbcd95c011216ebf9364c3f77ae9b902afe83299a2c57f73'
+[2023-03-02 08:48:19Z INFO JobDispatcher] Job request 13 for plan 12515f97-87c3-4b82-87a7-5826e48e3490 job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8 received.
+[2023-03-02 08:48:19Z INFO JobDispatcher] Pull OrchestrationId 12515f97-87c3-4b82-87a7-5826e48e3490.today_job.__default from JWT claims
+[2023-03-02 08:48:19Z INFO JobDispatcher] Job request 24e7ee36-8e59-5ffc-471a-a16683a727d4 processed succeed.
+[2023-03-02 08:48:19Z INFO Terminal] WRITE LINE: 2023-03-02 08:48:19Z: Running job: today_job
+[2023-03-02 08:48:19Z INFO JobDispatcher] Start renew job request 13 for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8.
+[2023-03-02 08:48:19Z INFO JobDispatcher] Successfully renew job request 13, job is valid till 02-03-2023 08:58:18
+[2023-03-02 08:48:19Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 08:48:19Z INFO ProcessInvokerWrapper] Starting process:
+[2023-03-02 08:48:19Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\hkam\build_display\actions-runner\bin\Runner.Worker.exe'
+[2023-03-02 08:48:19Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 2300 2360'
+[2023-03-02 08:48:19Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 08:48:19Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-03-02 08:48:19Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-03-02 08:48:19Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-03-02 08:48:19Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-03-02 08:48:19Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-03-02 08:48:19Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-03-02 08:48:19Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-03-02 08:48:19Z INFO ProcessInvokerWrapper] Process started with process id 13508, waiting for process exit.
+[2023-03-02 08:48:19Z INFO JobDispatcher] Send job request message to worker for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8.
+[2023-03-02 08:48:19Z INFO ProcessChannel] Sending message of length 19268, with hash '12952e76a6fb7188dbcd95c011216ebf9364c3f77ae9b902afe83299a2c57f73'
+[2023-03-02 08:48:19Z INFO JobNotification] Entering JobStarted Notification
+[2023-03-02 08:48:19Z INFO JobNotification] Entering StartMonitor
+[2023-03-02 08:48:24Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-02 08:48:24Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-02 08:48:24Z INFO ProcessInvokerWrapper] Finished process 13508 with exit code 100, and elapsed time 00:00:05.2181376.
+[2023-03-02 08:48:24Z INFO JobDispatcher] Worker finished for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8. Code: 100
+[2023-03-02 08:48:24Z INFO JobDispatcher] finish job request for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8 with result: Succeeded
+[2023-03-02 08:48:24Z INFO Terminal] WRITE LINE: 2023-03-02 08:48:24Z: Job today_job completed with result: Succeeded
+[2023-03-02 08:48:24Z INFO JobDispatcher] Stop renew job request for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8.
+[2023-03-02 08:48:24Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 13.
+[2023-03-02 08:48:24Z INFO JobNotification] Entering JobCompleted Notification
+[2023-03-02 08:48:24Z INFO JobNotification] Entering EndMonitor
+[2023-03-02 08:48:28Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\hkam\build_display\actions-runner\.credentials_rsaparams
+[2023-03-02 08:48:28Z INFO MessageListener] Message '11' received from session '5177e1f3-f5e4-4a23-a7c6-87e13cb8b89e'.
+[2023-03-02 08:48:28Z INFO Runner] Received job message of length 20191 from service, with hash 'f2205bbd3e896cd781d57589c2cb04a839b3e8f4fc1642884717f995088fbdd1'
+[2023-03-02 08:48:28Z INFO JobDispatcher] Job request 14 for plan 12515f97-87c3-4b82-87a7-5826e48e3490 job 24e7ee36-8e59-5ffc-471a-a16683a727d4 received.
+[2023-03-02 08:48:28Z INFO JobDispatcher] Pull OrchestrationId 12515f97-87c3-4b82-87a7-5826e48e3490.new_job.__default from JWT claims
+[2023-03-02 08:48:28Z INFO JobDispatcher] Job request fc4c0bc6-15b4-5905-22ab-6b6b065abfc8 processed succeed.
+[2023-03-02 08:48:28Z INFO Terminal] WRITE LINE: 2023-03-02 08:48:28Z: Running job: new_job
+[2023-03-02 08:48:28Z INFO JobDispatcher] Start renew job request 14 for job 24e7ee36-8e59-5ffc-471a-a16683a727d4.
+[2023-03-02 08:48:29Z INFO JobDispatcher] Successfully renew job request 14, job is valid till 02-03-2023 08:58:28
+[2023-03-02 08:48:29Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 08:48:29Z INFO ProcessInvokerWrapper] Starting process:
+[2023-03-02 08:48:29Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\hkam\build_display\actions-runner\bin\Runner.Worker.exe'
+[2023-03-02 08:48:29Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 3628 3652'
+[2023-03-02 08:48:29Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 08:48:29Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-03-02 08:48:29Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-03-02 08:48:29Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-03-02 08:48:29Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-03-02 08:48:29Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-03-02 08:48:29Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-03-02 08:48:29Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-03-02 08:48:29Z INFO ProcessInvokerWrapper] Process started with process id 27324, waiting for process exit.
+[2023-03-02 08:48:29Z INFO JobDispatcher] Send job request message to worker for job 24e7ee36-8e59-5ffc-471a-a16683a727d4.
+[2023-03-02 08:48:29Z INFO ProcessChannel] Sending message of length 20191, with hash 'f2205bbd3e896cd781d57589c2cb04a839b3e8f4fc1642884717f995088fbdd1'
+[2023-03-02 08:48:29Z INFO JobNotification] Entering JobStarted Notification
+[2023-03-02 08:48:29Z INFO JobNotification] Entering StartMonitor
+[2023-03-02 08:48:38Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-02 08:48:38Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-02 08:48:38Z INFO ProcessInvokerWrapper] Finished process 27324 with exit code 100, and elapsed time 00:00:08.9908159.
+[2023-03-02 08:48:38Z INFO JobDispatcher] Worker finished for job 24e7ee36-8e59-5ffc-471a-a16683a727d4. Code: 100
+[2023-03-02 08:48:38Z INFO JobDispatcher] finish job request for job 24e7ee36-8e59-5ffc-471a-a16683a727d4 with result: Succeeded
+[2023-03-02 08:48:38Z INFO Terminal] WRITE LINE: 2023-03-02 08:48:38Z: Job new_job completed with result: Succeeded
+[2023-03-02 08:48:38Z INFO JobDispatcher] Stop renew job request for job 24e7ee36-8e59-5ffc-471a-a16683a727d4.
+[2023-03-02 08:48:38Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 14.
+[2023-03-02 08:48:38Z INFO JobNotification] Entering JobCompleted Notification
+[2023-03-02 08:48:38Z INFO JobNotification] Entering EndMonitor
+[2023-03-02 08:53:10Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\hkam\build_display\actions-runner\.credentials_rsaparams
+[2023-03-02 08:53:10Z INFO MessageListener] Message '12' received from session '5177e1f3-f5e4-4a23-a7c6-87e13cb8b89e'.
+[2023-03-02 08:53:10Z INFO Runner] Received job message of length 19268 from service, with hash 'c569fb779e1769c1a365007edb73a078574ca4bb817b09802985c8272e22138f'
+[2023-03-02 08:53:10Z INFO JobDispatcher] Job request 15 for plan ab353a8e-bb91-4c27-8217-d4818adb748a job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8 received.
+[2023-03-02 08:53:10Z INFO JobDispatcher] Pull OrchestrationId ab353a8e-bb91-4c27-8217-d4818adb748a.today_job.__default from JWT claims
+[2023-03-02 08:53:10Z INFO JobDispatcher] Job request 24e7ee36-8e59-5ffc-471a-a16683a727d4 processed succeed.
+[2023-03-02 08:53:10Z INFO Terminal] WRITE LINE: 2023-03-02 08:53:10Z: Running job: today_job
+[2023-03-02 08:53:10Z INFO JobDispatcher] Start renew job request 15 for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8.
+[2023-03-02 08:53:11Z INFO JobDispatcher] Successfully renew job request 15, job is valid till 02-03-2023 09:03:10
+[2023-03-02 08:53:11Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 08:53:11Z INFO ProcessInvokerWrapper] Starting process:
+[2023-03-02 08:53:11Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\hkam\build_display\actions-runner\bin\Runner.Worker.exe'
+[2023-03-02 08:53:11Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 3744 3764'
+[2023-03-02 08:53:11Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 08:53:11Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-03-02 08:53:11Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-03-02 08:53:11Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-03-02 08:53:11Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-03-02 08:53:11Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-03-02 08:53:11Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-03-02 08:53:11Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-03-02 08:53:11Z INFO ProcessInvokerWrapper] Process started with process id 24908, waiting for process exit.
+[2023-03-02 08:53:11Z INFO JobDispatcher] Send job request message to worker for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8.
+[2023-03-02 08:53:11Z INFO ProcessChannel] Sending message of length 19268, with hash 'c569fb779e1769c1a365007edb73a078574ca4bb817b09802985c8272e22138f'
+[2023-03-02 08:53:11Z INFO JobNotification] Entering JobStarted Notification
+[2023-03-02 08:53:11Z INFO JobNotification] Entering StartMonitor
+[2023-03-02 08:53:16Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-02 08:53:16Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-02 08:53:16Z INFO ProcessInvokerWrapper] Finished process 24908 with exit code 100, and elapsed time 00:00:05.0959388.
+[2023-03-02 08:53:16Z INFO JobDispatcher] Worker finished for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8. Code: 100
+[2023-03-02 08:53:16Z INFO JobDispatcher] finish job request for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8 with result: Succeeded
+[2023-03-02 08:53:16Z INFO Terminal] WRITE LINE: 2023-03-02 08:53:16Z: Job today_job completed with result: Succeeded
+[2023-03-02 08:53:16Z INFO JobDispatcher] Stop renew job request for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8.
+[2023-03-02 08:53:16Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 15.
+[2023-03-02 08:53:16Z INFO JobNotification] Entering JobCompleted Notification
+[2023-03-02 08:53:16Z INFO JobNotification] Entering EndMonitor
+[2023-03-02 08:53:20Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\hkam\build_display\actions-runner\.credentials_rsaparams
+[2023-03-02 08:53:20Z INFO MessageListener] Message '13' received from session '5177e1f3-f5e4-4a23-a7c6-87e13cb8b89e'.
+[2023-03-02 08:53:20Z INFO Runner] Received job message of length 20211 from service, with hash 'e2c0635a9a2de7e7a7563a711787b6bc63d920b868bae2d9ad4e7686ebfbf0b4'
+[2023-03-02 08:53:20Z INFO JobDispatcher] Job request 16 for plan ab353a8e-bb91-4c27-8217-d4818adb748a job 24e7ee36-8e59-5ffc-471a-a16683a727d4 received.
+[2023-03-02 08:53:20Z INFO JobDispatcher] Pull OrchestrationId ab353a8e-bb91-4c27-8217-d4818adb748a.new_job.__default from JWT claims
+[2023-03-02 08:53:20Z INFO JobDispatcher] Job request fc4c0bc6-15b4-5905-22ab-6b6b065abfc8 processed succeed.
+[2023-03-02 08:53:20Z INFO Terminal] WRITE LINE: 2023-03-02 08:53:20Z: Running job: new_job
+[2023-03-02 08:53:20Z INFO JobDispatcher] Start renew job request 16 for job 24e7ee36-8e59-5ffc-471a-a16683a727d4.
+[2023-03-02 08:53:20Z INFO JobDispatcher] Successfully renew job request 16, job is valid till 02-03-2023 09:03:19
+[2023-03-02 08:53:20Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 08:53:20Z INFO ProcessInvokerWrapper] Starting process:
+[2023-03-02 08:53:20Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\hkam\build_display\actions-runner\bin\Runner.Worker.exe'
+[2023-03-02 08:53:20Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 3580 3592'
+[2023-03-02 08:53:20Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 08:53:20Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-03-02 08:53:20Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-03-02 08:53:20Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-03-02 08:53:20Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-03-02 08:53:20Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-03-02 08:53:20Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-03-02 08:53:20Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-03-02 08:53:20Z INFO ProcessInvokerWrapper] Process started with process id 4988, waiting for process exit.
+[2023-03-02 08:53:20Z INFO JobDispatcher] Send job request message to worker for job 24e7ee36-8e59-5ffc-471a-a16683a727d4.
+[2023-03-02 08:53:20Z INFO ProcessChannel] Sending message of length 20211, with hash 'e2c0635a9a2de7e7a7563a711787b6bc63d920b868bae2d9ad4e7686ebfbf0b4'
+[2023-03-02 08:53:20Z INFO JobNotification] Entering JobStarted Notification
+[2023-03-02 08:53:20Z INFO JobNotification] Entering StartMonitor
+[2023-03-02 08:53:29Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-02 08:53:29Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-02 08:53:29Z INFO ProcessInvokerWrapper] Finished process 4988 with exit code 100, and elapsed time 00:00:09.1693345.
+[2023-03-02 08:53:29Z INFO JobDispatcher] Worker finished for job 24e7ee36-8e59-5ffc-471a-a16683a727d4. Code: 100
+[2023-03-02 08:53:29Z INFO JobDispatcher] finish job request for job 24e7ee36-8e59-5ffc-471a-a16683a727d4 with result: Succeeded
+[2023-03-02 08:53:29Z INFO Terminal] WRITE LINE: 2023-03-02 08:53:29Z: Job new_job completed with result: Succeeded
+[2023-03-02 08:53:29Z INFO JobDispatcher] Stop renew job request for job 24e7ee36-8e59-5ffc-471a-a16683a727d4.
+[2023-03-02 08:53:29Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 16.
+[2023-03-02 08:53:29Z INFO JobNotification] Entering JobCompleted Notification
+[2023-03-02 08:53:29Z INFO JobNotification] Entering EndMonitor
+[2023-03-02 08:55:24Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\hkam\build_display\actions-runner\.credentials_rsaparams
+[2023-03-02 08:55:24Z INFO MessageListener] Message '14' received from session '5177e1f3-f5e4-4a23-a7c6-87e13cb8b89e'.
+[2023-03-02 08:55:24Z INFO Runner] Received job message of length 19268 from service, with hash 'c8cd7ed7e4ba7c1e1c5cdb5b0be90d00804b6a3dff5a3a2b6465eadd7befffb0'
+[2023-03-02 08:55:24Z INFO JobDispatcher] Job request 17 for plan c4982d6d-0585-4386-a909-f7274ae0d3ba job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8 received.
+[2023-03-02 08:55:24Z INFO JobDispatcher] Pull OrchestrationId c4982d6d-0585-4386-a909-f7274ae0d3ba.today_job.__default from JWT claims
+[2023-03-02 08:55:24Z INFO JobDispatcher] Job request 24e7ee36-8e59-5ffc-471a-a16683a727d4 processed succeed.
+[2023-03-02 08:55:24Z INFO Terminal] WRITE LINE: 2023-03-02 08:55:24Z: Running job: today_job
+[2023-03-02 08:55:24Z INFO JobDispatcher] Start renew job request 17 for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8.
+[2023-03-02 08:55:25Z INFO JobDispatcher] Successfully renew job request 17, job is valid till 02-03-2023 09:05:24
+[2023-03-02 08:55:25Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 08:55:25Z INFO ProcessInvokerWrapper] Starting process:
+[2023-03-02 08:55:25Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\hkam\build_display\actions-runner\bin\Runner.Worker.exe'
+[2023-03-02 08:55:25Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 3304 2280'
+[2023-03-02 08:55:25Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 08:55:25Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-03-02 08:55:25Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-03-02 08:55:25Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-03-02 08:55:25Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-03-02 08:55:25Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-03-02 08:55:25Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-03-02 08:55:25Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-03-02 08:55:25Z INFO ProcessInvokerWrapper] Process started with process id 7532, waiting for process exit.
+[2023-03-02 08:55:25Z INFO JobDispatcher] Send job request message to worker for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8.
+[2023-03-02 08:55:25Z INFO ProcessChannel] Sending message of length 19268, with hash 'c8cd7ed7e4ba7c1e1c5cdb5b0be90d00804b6a3dff5a3a2b6465eadd7befffb0'
+[2023-03-02 08:55:25Z INFO JobNotification] Entering JobStarted Notification
+[2023-03-02 08:55:25Z INFO JobNotification] Entering StartMonitor
+[2023-03-02 08:55:30Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-02 08:55:30Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-02 08:55:30Z INFO ProcessInvokerWrapper] Finished process 7532 with exit code 100, and elapsed time 00:00:05.4946527.
+[2023-03-02 08:55:30Z INFO JobDispatcher] Worker finished for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8. Code: 100
+[2023-03-02 08:55:30Z INFO JobDispatcher] finish job request for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8 with result: Succeeded
+[2023-03-02 08:55:30Z INFO Terminal] WRITE LINE: 2023-03-02 08:55:30Z: Job today_job completed with result: Succeeded
+[2023-03-02 08:55:30Z INFO JobDispatcher] Stop renew job request for job fc4c0bc6-15b4-5905-22ab-6b6b065abfc8.
+[2023-03-02 08:55:30Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 17.
+[2023-03-02 08:55:30Z INFO JobNotification] Entering JobCompleted Notification
+[2023-03-02 08:55:30Z INFO JobNotification] Entering EndMonitor
+[2023-03-02 08:55:34Z INFO RSAEncryptedFileKeyManager] Loading RSA key parameters from file C:\Users\hkam\build_display\actions-runner\.credentials_rsaparams
+[2023-03-02 08:55:34Z INFO MessageListener] Message '15' received from session '5177e1f3-f5e4-4a23-a7c6-87e13cb8b89e'.
+[2023-03-02 08:55:34Z INFO Runner] Received job message of length 20195 from service, with hash '9ff1a7c7e3c271b5e5c825fb8f5cab9e4f1f8f72e568a8a8f248f2bed4cd1141'
+[2023-03-02 08:55:34Z INFO JobDispatcher] Job request 18 for plan c4982d6d-0585-4386-a909-f7274ae0d3ba job 24e7ee36-8e59-5ffc-471a-a16683a727d4 received.
+[2023-03-02 08:55:34Z INFO JobDispatcher] Pull OrchestrationId c4982d6d-0585-4386-a909-f7274ae0d3ba.new_job.__default from JWT claims
+[2023-03-02 08:55:34Z INFO JobDispatcher] Job request fc4c0bc6-15b4-5905-22ab-6b6b065abfc8 processed succeed.
+[2023-03-02 08:55:34Z INFO Terminal] WRITE LINE: 2023-03-02 08:55:34Z: Running job: new_job
+[2023-03-02 08:55:34Z INFO JobDispatcher] Start renew job request 18 for job 24e7ee36-8e59-5ffc-471a-a16683a727d4.
+[2023-03-02 08:55:34Z INFO JobDispatcher] Successfully renew job request 18, job is valid till 02-03-2023 09:05:34
+[2023-03-02 08:55:34Z INFO HostContext] Well known directory 'Bin': 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 08:55:34Z INFO ProcessInvokerWrapper] Starting process:
+[2023-03-02 08:55:34Z INFO ProcessInvokerWrapper]   File name: 'C:\Users\hkam\build_display\actions-runner\bin\Runner.Worker.exe'
+[2023-03-02 08:55:34Z INFO ProcessInvokerWrapper]   Arguments: 'spawnclient 3728 3860'
+[2023-03-02 08:55:34Z INFO ProcessInvokerWrapper]   Working directory: 'C:\Users\hkam\build_display\actions-runner\bin'
+[2023-03-02 08:55:34Z INFO ProcessInvokerWrapper]   Require exit code zero: 'False'
+[2023-03-02 08:55:34Z INFO ProcessInvokerWrapper]   Encoding web name:  ; code page: ''
+[2023-03-02 08:55:34Z INFO ProcessInvokerWrapper]   Force kill process on cancellation: 'True'
+[2023-03-02 08:55:34Z INFO ProcessInvokerWrapper]   Redirected STDIN: 'False'
+[2023-03-02 08:55:34Z INFO ProcessInvokerWrapper]   Persist current code page: 'False'
+[2023-03-02 08:55:34Z INFO ProcessInvokerWrapper]   Keep redirected STDIN open: 'False'
+[2023-03-02 08:55:34Z INFO ProcessInvokerWrapper]   High priority process: 'True'
+[2023-03-02 08:55:34Z INFO ProcessInvokerWrapper] Process started with process id 18056, waiting for process exit.
+[2023-03-02 08:55:34Z INFO JobDispatcher] Send job request message to worker for job 24e7ee36-8e59-5ffc-471a-a16683a727d4.
+[2023-03-02 08:55:34Z INFO ProcessChannel] Sending message of length 20195, with hash '9ff1a7c7e3c271b5e5c825fb8f5cab9e4f1f8f72e568a8a8f248f2bed4cd1141'
+[2023-03-02 08:55:35Z INFO JobNotification] Entering JobStarted Notification
+[2023-03-02 08:55:35Z INFO JobNotification] Entering StartMonitor
+[2023-03-02 08:55:42Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-02 08:55:42Z INFO ProcessInvokerWrapper] STDOUT/STDERR stream read finished.
+[2023-03-02 08:55:42Z INFO ProcessInvokerWrapper] Finished process 18056 with exit code 100, and elapsed time 00:00:07.8996382.
+[2023-03-02 08:55:42Z INFO JobDispatcher] Worker finished for job 24e7ee36-8e59-5ffc-471a-a16683a727d4. Code: 100
+[2023-03-02 08:55:42Z INFO JobDispatcher] finish job request for job 24e7ee36-8e59-5ffc-471a-a16683a727d4 with result: Succeeded
+[2023-03-02 08:55:42Z INFO Terminal] WRITE LINE: 2023-03-02 08:55:42Z: Job new_job completed with result: Succeeded
+[2023-03-02 08:55:42Z INFO JobDispatcher] Stop renew job request for job 24e7ee36-8e59-5ffc-471a-a16683a727d4.
+[2023-03-02 08:55:42Z INFO JobDispatcher] job renew has been cancelled, stop renew job request 18.
+[2023-03-02 08:55:42Z INFO JobNotification] Entering JobCompleted Notification
+[2023-03-02 08:55:42Z INFO JobNotification] Entering EndMonitor
