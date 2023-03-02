@@ -13,4 +13,4 @@ jobs:
          if: github.event.inputs.tag_name  == 'true'  
          runs-on: [ new_run  ]
          steps:
-            - run: echo "Hello"
+            run: echo "Hello"
