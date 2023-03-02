@@ -17,6 +17,6 @@ jobs:
    
    today_job:
          if: github.event.inputs.tag_name  == 'true'  
-         runs-on: [ gh_label ]
+         runs-on: [ new_run  ]
          steps:
             - run: echo "Hello"
