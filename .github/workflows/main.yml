@@ -3,12 +3,6 @@ name: Docker Image Sample
 on:
   workflow_dispatch:
     inputs:
-      image_name: 
-         type: choice
-         description: pick image to be pushed
-         options:
-         - image_1
-         - image_ah
       tag_name:
         description: What is the tag
         type: boolean
