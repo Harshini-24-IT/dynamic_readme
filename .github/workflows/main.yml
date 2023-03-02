@@ -25,7 +25,6 @@ jobs:
       needs: [ today_job ]
       steps:
       - name: Generate file with timestamp
-        shell: pwsh
         run: |
              $content = "Timestamp: $(Get-Date)"
              Set-Content -Path timestamp.txt -Value $content
