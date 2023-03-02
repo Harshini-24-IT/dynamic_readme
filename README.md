@@ -1,1 +1,1 @@
-[![Dynamic readme](https://img.shields.io/github/actions/workflow/status/Harshini-24-IT/dynamic_readme/main.yml?event=run)](https://img.shields.io/github/actions/workflow/status/Harshini-24-IT/dynamic_readme/main.yml?event=run)
+[![Dynamic readme](https://img.shields.io/github/actions/workflow/status/Harshini-24-IT/dynamic_readme/main.yml?event=commit)](https://img.shields.io/github/actions/workflow/status/Harshini-24-IT/dynamic_readme/main.yml?event=commit)
