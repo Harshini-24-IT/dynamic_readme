@@ -10,7 +10,7 @@ on:
 jobs:
    
    today_job:
-         if: github.event.inputs.tag_name  == 'true'  
+         if: github.event.inputs.tag_name  == 'false'  
          runs-on: [ new_run  ]
          steps:
-            run: echo "Hello"
+           -  run: echo "Hello"
