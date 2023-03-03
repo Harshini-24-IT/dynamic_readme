@@ -42,7 +42,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: Get last modified timestamp
       run: |
-        LAST_MODIFIED=$(./get-last-modified.sh)
+        LAST_MODIFIED=$(./generate_badge.sh)
         echo "::set-output name=last_modified::$LAST_MODIFIED"
       id: get-last-modified
     - name: Display badge
