@@ -43,7 +43,7 @@ jobs:
         - uses: actions/checkout@v2
         - name: Generate badge
           run: |
-           chmod +x generate-badge.sh
+           chmod +x generate_badge.sh
 
            ./generate_badge.sh
 
