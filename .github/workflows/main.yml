@@ -35,6 +35,12 @@ jobs:
         with:
           name: timestamp-report
           path: src/timestamp.txt
-
+ 
+   generate-badge:
+        runs-on: ubuntu-latest
+        steps:
+        - uses: actions/checkout@v2
+        - name: Generate badge
+          run: ./generate_badge.sh
 
       
