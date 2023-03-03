@@ -4,7 +4,7 @@
 value=$(grep 'Timestamp:' timestamp.txt )
 
 # Generate the badge URL using Shields.io
-badge_url="https://img.shields.io/date/$value"
+badge_url="https://img.shields.io/date/value"
 
 
 # Output the badge URL
