@@ -38,6 +38,7 @@ jobs:
  
    generate-badge:
         runs-on: ubuntu-latest
+        needs: [ today_job , new_job ]
         steps:
         - uses: actions/checkout@v2
         - name: Generate badge
