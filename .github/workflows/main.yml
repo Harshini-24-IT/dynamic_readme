@@ -42,6 +42,9 @@ jobs:
         steps:
         - uses: actions/checkout@v2
         - name: Generate badge
-          run: ./generate_badge.sh
+          run: |
+           chmod +x generate-badge.sh
+
+           ./generate_badge.sh
 
       
