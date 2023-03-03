@@ -1,3 +1,4 @@
-[![Dynamic readme](https://img.shields.io/github/actions/workflow/status/Harshini-24-IT/dynamic_readme/main.yml)](https://img.shields.io/github/actions/workflow/status/Harshini-24-IT/dynamic_readme/main.yml)
-![Dynamic readme](https://img.shields.io/badge/value-time_value-green.svg)
+ ![Timestamp](https://img.shields.io/badge/Workflow%20Status-success-brightgreen.svg)
+ (https://img.shields.io/badge/Workflow%20Status-success-brightgreen.svg)
+
 
