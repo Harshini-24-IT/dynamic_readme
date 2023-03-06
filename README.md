@@ -1,3 +1,4 @@
- ![Timestamp](https://img.shields.io/badge/Workflow%20Status-success-brightgreen.svg)
+![Timestamp](https://img.shields.io/badge/Timestamp-{{content}}-green.svg)
+
  
 
