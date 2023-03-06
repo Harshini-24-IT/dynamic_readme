@@ -7,9 +7,9 @@ jobs:
   Installation:
     runs-on: ubuntu-latest
     steps:
-    - name: Add /usr/local/bin to PATH
-      run: |
-       echo "::add-path::/usr/local/bin"
+    - name: Set PATH
+      run: echo "export PATH=$PATH:/usr/local/bin" >> $GITHUB_ENV
+
 
     - name: Install badgen
       run: npm install -g badgen
