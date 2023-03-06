@@ -1,4 +1,4 @@
-![Timestamp](https://img.shields.io/badge/Timestamp-$(TIMESTAMP)-blue)
+![Timestamp](https://img.shields.io/badge/Timestamp-$(cat timestamp.txt)-blue)
 
 
  
