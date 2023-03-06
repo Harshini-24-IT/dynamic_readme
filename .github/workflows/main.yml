@@ -4,6 +4,14 @@ on:
   workflow_dispatch:
 
 jobs:
+  Installation:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Install badgen
+      run: npm install -g badgen
+    - name: Add badgen to PATH
+      run: echo "::add-path::/usr/local/bin"
+
   generate-timestamp:
     runs-on: ubuntu-latest
     steps:
