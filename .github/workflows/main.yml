@@ -7,6 +7,10 @@ jobs:
   Installation:
     runs-on: ubuntu-latest
     steps:
+    - name: Add /usr/local/bin to PATH
+      run: |
+       echo "::add-path::/usr/local/bin"
+
     - name: Install badgen
       run: npm install -g badgen
     - name: Add badgen to PATH
