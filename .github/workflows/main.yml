@@ -2,21 +2,10 @@ name: Docker Image Sample
 
 on:
   workflow_dispatch:
-    inputs:
-      image_name: 
-         type: choice
-         description: pick image to be pushed
-         options:
-         - image_1
-         - image_ah
-      tag_name:
-        description: What is the tag
-        type: boolean
-        default:  true 
+   
 jobs:
    
    today_job:
-         if: github.event.inputs.tag_name  == 'true'  
          runs-on: [ new_run ]
          steps:
             - run: echo "Hello"
@@ -36,20 +25,4 @@ jobs:
           name: timestamp-report
           path: src/timestamp.txt
  
-   display-timestamp:
-    runs-on: ubuntu-latest
-    needs: [ today_job, new_job ]
-    steps:
-    - uses: actions/checkout@v2
-    - name: Get last modified timestamp
-      run: |
-        LAST_MODIFIED=$(./generate_badge.sh)
-        echo "::set-output name=last_modified::$LAST_MODIFIED"
-      id: get-last-modified
-    - name: Display badge
-      uses: actions-ecosystem/action-readme-badges@v2
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        badges: |
-          last modified=$${{ steps.get-last-modified.outputs.last_modified }}
-      
+  
