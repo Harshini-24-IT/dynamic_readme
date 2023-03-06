@@ -4,19 +4,29 @@ on:
   workflow_dispatch:
    
 jobs:
-  generate-timestamp:
+  generate-badge:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-      - name: Generate Timestamp
-        run: |
-          echo "Generating timestamp..."
-          TIMESTAMP=$(date '+%Y-%m-%d %H:%M:%S')
-          echo "$TIMESTAMP" > timestamp.txt
-      - name: Upload timestamp file
-        uses: actions/upload-artifact@v2
-        with:
-          name: timestamp
-          path: timestamp.txt
-        if: always()
+    - uses: actions/checkout@v2
+    - name: Generate Timestamp
+      run: echo `date +"%Y-%m-%d %T"` > timestamp.txt
+    - uses: EndBug/add-and-commit@v7
+      with:
+        author_name: GitHub Actions
+        author_email: actions@github.com
+        message: Add timestamp.txt
+        add: timestamp.txt
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Generate Badge
+      uses: badgen/badgen-action@v1
+      with:
+        subject: Timestamp
+        status: ${{ steps.read-timestamp.outputs.timestamp }}
+        color: green
+        icon: clock
+      env:
+        TIMESTAMP: ${{ steps.read-timestamp.outputs.timestamp }}
+    - name: Read Timestamp
+      id: read-timestamp
+      run: echo ::set-output name=timestamp::$(cat timestamp.txt)
