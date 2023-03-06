@@ -7,7 +7,7 @@ jobs:
   installation:
    runs-on: ubuntu-latest
    steps:
-     - name: Generate Timestamp
+     - name: fgcjhfj
      - run:  sudo apt-get install jq
 
       
