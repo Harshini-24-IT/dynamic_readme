@@ -4,34 +4,15 @@ on:
   workflow_dispatch:
    
 jobs:
-  generate-badge:
+  generate-timestamp:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Generate Timestamp
-      run: echo `date +"%Y-%m-%d %T"` > timestamp.txt
-    - uses: EndBug/add-and-commit@v7
-      with:
-        author_name: GitHub Actions
-        author_email: actions@github.com
-        message: Add timestamp.txt
-        add: timestamp.txt
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    - name: Read Timestamp
-      id: read-timestamp
-      run: echo ::set-output name=timestamp::$(cat timestamp.txt)
-    - name: Generate Badge
-      run: |
-        TIMESTAMP=$(cat timestamp.txt)
-        BADGE_URL="https://img.shields.io/badge/Timestamp-$TIMESTAMP-green"
-        echo "![$TIMESTAMP]($BADGE_URL)" > badge.md
-    - name: Add Badge to README
-      uses: EndBug/add-and-commit@v7
-      with:
-        author_name: GitHub Actions
-        author_email: actions@github.com
-        message: Add timestamp badge
-        add: badge.md README.md
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Generate Timestamp
+        run: echo $(date +%s) > timestamp.txt
+      - name: Upload Timestamp
+        uses: actions/upload-artifact@v2
+        with:
+          name: timestamp
+          path: timestamp.txt
