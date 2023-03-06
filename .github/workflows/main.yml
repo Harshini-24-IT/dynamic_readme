@@ -4,6 +4,15 @@ on:
   workflow_dispatch:
    
 jobs:
+  installation:
+   runs-on: ubuntu-latest
+   steps:
+     - name: Generate Timestamp
+     - run:  sudo apt-get install jq
+
+      
+  
+  
   generate-timestamp:
     runs-on: ubuntu-latest
     steps:
