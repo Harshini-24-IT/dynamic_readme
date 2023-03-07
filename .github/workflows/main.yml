@@ -15,3 +15,10 @@ jobs:
         with:
           name: timestamp
           path: timestamp.txt
+      - name: Commit Timestamp File
+        run: |
+          git config --local user.email "harshinikamaraj24@gmail.com"
+          git config --local user.name "Harshini-24-IT"
+          git add timestamp.txt
+          git commit -m "Add timestamp.txt file"
+          git push
