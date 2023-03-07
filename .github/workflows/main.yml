@@ -1,50 +1,17 @@
-name: Generate Timestamp and Badge
+name: Generate Timestamp
 
 on:
   workflow_dispatch:
-
 jobs:
-  Installation:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Set PATH
-      run: echo "export PATH=$PATH:/usr/local/bin" >> $GITHUB_ENV
-
-
-    - name: Install badgen
-      run: npm install -g badgen
-    - name: Add badgen to PATH
-      run: echo "::add-path::/usr/local/bin"
-
   generate-timestamp:
     runs-on: ubuntu-latest
-    needs: [ Installation ]
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
-
       - name: Generate Timestamp
         run: echo $(date +%s) > timestamp.txt
-
-      - name: Install Badgen
-        run: npm install -g badgen
-
-      - name: Generate Badge
-        run: badgen "Timestamp:$(cat timestamp.txt)" --style=flat-square --color=blue > badge.svg
-
-      - name: Add Badge to README
-        run: |
-          echo "" >> README.md
-          echo "![Timestamp](badge.svg)" >> README.md
-
-      - name: Commit changes
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add README.md
-          git commit -m "Update timestamp badge"
-      
-      - name: Push changes
-        uses: ad-m/github-push-action@master
+      - name: Upload Timestamp
+        uses: actions/upload-artifact@v2
         with:
-          branch: main
+          name: timestamp
+          path: timestamp.txt
