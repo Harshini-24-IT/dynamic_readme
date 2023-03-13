@@ -15,4 +15,9 @@ jobs:
        with:
           name: timestamp-report
           path: date.txt  
+          
+     - name: Fetch value
+       run: echo "The value is $(grep '^my_key=' date.txt | cut -d'=' -f2)"
+
+          
      
