@@ -17,8 +17,8 @@ jobs:
       - name: Extract value from file
         id: extract_value
         run: echo "::set-output name=my_output::$(grep '^my_key=' date.txt | cut -d'=' -f2)"
-
-      - name: Use the value in another step
         env:
           MY_VALUE: ${{ steps.extract_value.outputs.my_output }}
-        run: echo "The value is: $MY_VALUE"
+
+      - name: Use the value in another step
+        run: echo "The value is:${{ env.MY_VALUE }}"
