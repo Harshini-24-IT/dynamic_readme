@@ -3,21 +3,23 @@ on:
   workflow_dispatch:
 jobs:
   generate_timestamp:
-     runs-on: [ubuntu-latest]
-     
-     steps:
-     - uses: actions/checkout@v3
-     - name: generate workflow file
-       run: |
-             date > date.txt
-     - name: Upload artifact
-       uses: actions/upload-artifact@v2
-       with:
-          name: timestamp-report
-          path: date.txt  
-          
-     - name: Fetch value
-       run: echo "The value is $(grep '^my_key=' date.txt | cut -d'=' -f2)"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Generate workflow file
+        run: date > date.txt
 
-          
-     
+      - name: Upload artifact
+        uses: actions/upload-artifact@v2
+        with:
+          name: timestamp-report
+          path: date.txt
+
+      - name: Extract value from file
+        id: extract_value
+        run: |
+          echo "::set-env name=MY_VALUE::$(grep '^my_key=' date.txt | cut -d'=' -f2)"
+        env:
+          MY_VALUE: ${{ steps.extract_value.outputs.my_output }}
+
+      - name: Use the value in another step
+        run: echo "The value is:$MY_VALUE"
