@@ -5,6 +5,10 @@ jobs:
   generate_timestamp:
     runs-on: ubuntu-latest
     steps:
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
       - name: Generate workflow file
         run: date > date.txt
 
