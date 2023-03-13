@@ -1,29 +1,24 @@
-name: Display Number Badge
-
+name: Update Badge
 on:
- workflow_dispatch:
+  workflow_dispatch:
 jobs:
-  generate:
+  update-badge:
     runs-on: ubuntu-latest
     steps:
-      - name: Generate Number
-        run: echo $(( $RANDOM % 1000 )) > number.txt
+      - name: Generate Number File
+        run: echo $RANDOM > number.txt
       - name: Upload Number
         uses: actions/upload-artifact@v2
         with:
           name: number
           path: number.txt
-
-  display:
-    runs-on: ubuntu-latest
-    needs: generate
-    steps:
       - name: Download Number File
         uses: actions/download-artifact@v2
         with:
           name: number
+          path: number.txt
       - name: Generate Badge URL
-        run: echo "::set-output name=badge_url::https://img.shields.io/badge/Number-$(cat number.txt)-blue?style=flat-square"
+        run: echo "::set-output name=badge_url::https://img.shields.io/badge/Number-$(cat number.txt)-green?style=flat-square"
         id: badge
       - name: Update README
         uses: maxkomarychev/octions@v0.4.1
@@ -31,4 +26,4 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           path: README.md
           pattern: '<badge>(.*?)<\/badge>'
-          replace: '<badge>[![Number](${{ steps.badge.outputs.badge_url }})](https://github.com/Harshini-24-IT/dynamic_readme)</badge>'
+          replace: '<badge>[![Number](${{ steps.badge.outputs.badge_url }})](https://github.com/USERNAME/repo-name)</badge>'
