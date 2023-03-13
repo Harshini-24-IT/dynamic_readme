@@ -2,28 +2,18 @@ name: Update Badge
 on:
   workflow_dispatch:
 jobs:
-  update-badge:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Generate Number File
-        run: echo $RANDOM > number.txt
-      - name: Upload Number
-        uses: actions/upload-artifact@v2
-        with:
-          name: number
-          path: number.txt
-      - name: Download Number File
-        uses: actions/download-artifact@v2
-        with:
-          name: number
-          path: number.txt
-      - name: Generate Badge URL
-        run: echo "::set-output name=badge_url::https://img.shields.io/badge/Number-$(cat number.txt)-green?style=flat-square"
-        id: badge
-      - name: Update README
-        uses: maxkomarychev/octions@v0.4.1
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          path: README.md
-          pattern: '<badge>(.*?)<\/badge>'
-          replace: '<badge>[![Number](${{ steps.badge.outputs.badge_url }})](https://github.com/Harshini-24-IT/dynamic_readme)</badge>'
+  generate_timestamp:
+     runs-on: [ubuntu-latest]
+     
+     steps:
+     - uses: actions/checkout@v3
+     - name: generate workflow file
+       run: |
+             $content = "Timestamp: $(Get-Date)"
+             Set-Content -Path timestamp.txt -Value $content
+     - name: Upload artifact
+       uses: actions/upload-artifact@v2
+       with:
+          name: timestamp-report
+          path: timestamp.txt  
+     
