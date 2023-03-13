@@ -22,4 +22,4 @@ jobs:
           MY_VALUE: ${{ steps.extract_value.outputs.my_output }}
 
       - name: Use the value in another step
-        run: echo "The value is:$MY_VALUE"
+        run: echo "The value is:$ MY_VALUE"
