@@ -1,37 +1,34 @@
-name: Generate Timestamp
+name: Display Number Badge
 
 on:
-  workflow_dispatch:
+ workflow_dispatch:
 jobs:
-  generate-timestamp:
+  generate:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-      - name: Generate Timestamp
-        run: echo $(date +%s) > timestamp.txt
-      - name: Upload Timestamp
+      - name: Generate Number
+        run: echo $(( $RANDOM % 1000 )) > number.txt
+      - name: Upload Number
         uses: actions/upload-artifact@v2
         with:
-          name: timestamp
-          path: timestamp.txt
-     
+          name: number
+          path: number.txt
+
   display:
     runs-on: ubuntu-latest
-    needs: generate-timestamp
+    needs: generate
     steps:
-      - name: Download number file
+      - name: Download Number File
         uses: actions/download-artifact@v2
         with:
           name: number
-      - name: Generate badge URL
-        run: echo "::set-output name=badge_url::https://img.shields.io/badge/Number-${{ steps.number.outputs.number }}-blue?style=flat-square"
+      - name: Generate Badge URL
+        run: echo "::set-output name=badge_url::https://img.shields.io/badge/Number-$(cat number.txt)-blue?style=flat-square"
         id: badge
-      - name: Update README file
-        uses: maxkomarychev/octions/update-readme@0.2.2
+      - name: Update README
+        uses: maxkomarychev/octions@v0.4.1
         with:
-          readme-path: README.md
-          replace-pattern: '(<badge>)(.*?)(<\/badge>)'
-          replace-with: '<badge>[![Number](${{ steps.badge.outputs.badge_url }})](https://github.com/username/repo)</badge>'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+          path: README.md
+          pattern: '<badge>(.*?)<\/badge>'
+          replace: '<badge>[![Number](${{ steps.badge.outputs.badge_url }})](https://github.com/<username>/<repo>)</badge>'
