@@ -26,4 +26,4 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           path: README.md
           pattern: '<badge>(.*?)<\/badge>'
-          replace: '<badge>[![Number](${{ steps.badge.outputs.badge_url }})](https://github.com/USERNAME/repo-name)</badge>'
+          replace: '<badge>[![Number](${{ steps.badge.outputs.badge_url }})](https://github.com/Harshini-24-IT/dynamic_readme)</badge>'
