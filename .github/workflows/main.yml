@@ -1,6 +1,7 @@
 name: Update Badge
 on:
   workflow_dispatch:
+
 jobs:
   generate_timestamp:
     runs-on: ubuntu-latest
@@ -9,20 +10,24 @@ jobs:
         uses: actions/setup-node@v2
         with:
           node-version: '16'
+
       - name: Generate workflow file
         run: date > date.txt
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/setup-node@v2
         with:
-          name: timestamp-report
-          path: date.txt
+          node-version: '16'
+      - uses: actions/upload-artifact@v2
+        with:
+            name: timestamp-report
+            path: date.txt
 
       - name: Extract value from file
         id: extract_value
         run: |
           value=$(grep '^my_key=' date.txt | cut -d'=' -f2)
           echo "MY_VALUE=$value" >> $GITHUB_ENV
-          
+
       - name: Use the value in another step
         run: echo "The value is:${{ env.MY_VALUE }}"
