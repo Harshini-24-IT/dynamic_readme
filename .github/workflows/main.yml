@@ -23,11 +23,11 @@ jobs:
             name: timestamp-report
             path: date.txt
 
-      - name: Extract value from file
-        id: extract_value
-        run: |
-          value=$(grep '^my_key=' date.txt | cut -d'=' -f2)
-          echo "MY_VALUE=$value" >> $GITHUB_ENV
+      - name: Download artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: timestamp-report
+          path: downloaded-timestamp-report
 
-      - name: Use the value in another step
-        run: echo "The value is:${{ env.MY_VALUE }}"
+      - name: Display file contents
+        run: cat downloaded-timestamp-report/date.txt >> README.md
